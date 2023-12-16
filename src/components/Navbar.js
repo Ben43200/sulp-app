@@ -31,7 +31,7 @@ const Navbar = () => {
                     {/* <div className="logo"> */}
                     {/* <Brand /> */}
                     {/* <img src={logo} className='logo-1' alt="logo" /> */}
-                    <div className="brand">METEOBEN</div>
+                    <div className="brand"></div>
                     {/* </div> */}
                     <div className="menu-icon" onClick={handleShowNavbar}>
                         <Hamburger />
@@ -42,14 +42,12 @@ const Navbar = () => {
                                 <NavLink to="/" onClick={handleShowNavbar}>Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/mission" onClick={handleShowNavbar}>Mission</NavLink>
+                                <NavLink to="/mission" onClick={handleShowNavbar}>Etude</NavLink>
                             </li>
-                            <li>
-                                <NavLink to="/methodologie" onClick={handleShowNavbar}>Methodologie</NavLink>
-                            </li>
+                         
 
                             {/* <div className="dropdown"> */}
-                            <li className="drop" onClick={handleOpen}>Contact
+                            <li className="drop" onClick={handleOpen}>Compétences
                                 {open ? (
                                     <ul className="menu">
                                         <li className="menu-item">
@@ -72,7 +70,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <div className="title-container">
-                <h1>Ekklesia Web, dynamiser votre vie d'église</h1>
+                <h1>Maître Jean-François Sulpice, Notaire à Neuville-les-dames</h1>
             </div>
         </header>
     )
