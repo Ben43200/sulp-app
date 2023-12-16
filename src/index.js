@@ -1,17 +1,55 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import ReactDOM from "react-dom/client";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+// import Methodologie from "./pages/Methodologie";
+// import Mission from "./pages/Mission";
+// import Error from "./pages/Error/Error";
+// import Footer from "./components/Footer";
+// import ContactUs from "./pages/Contact/ContactUs";
+// import Examples from "./pages/Examples/Examples";
+// import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "react-scroll-to-top";
+// import { Helmet } from "react-helmet";
+
+
+// import "./css/common.scss";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  // <React.StrictMode>
+  <Router>
+      {/* <ScrollToTop /> */}
+
+    {/* <Helmet>
+      <title>Meteoben Développeur Web</title>
+      <meta
+        name="description"
+        content="Développeur et créateur de site web en Vallée de la Drôme"
+      />
+    </Helmet> */}
+    <Navbar />
+
+    <Routes>
+      <Route path="/" element={<Home />} />
+
+      {/* <Route path="/methodologie" element={<Methodologie />} /> */}
+      {/* <Route path="/mission" element={<Mission />} /> */}
+      {/* <Route path="/contact" element={<Mission />} /> */}
+
+
+      {/* <Route path="/examples" element={<Examples />} /> */}
+      {/* <Route path="*" element={<Error />} /> */}
+
+    </Routes>
+    {/* <Footer /> */}
+
+  </Router>
+
+  // </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
