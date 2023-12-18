@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // import Methodologie from "./pages/Methodologie";
 // import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
@@ -46,7 +47,7 @@ root.render(
       {/* <Route path="*" element={<Error />} /> */}
 
     </Routes>
-    {/* <Footer /> */}
+    <Footer />
 
   </Router>
 
