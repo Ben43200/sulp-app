@@ -180,4 +180,10 @@ h1 {
   .title-container {
     width: 1240px;
   }
+}
+
+.fa-chevron-down {
+  font-family: "fontawesome";
+  font-weight: 900;
+  padding-left: 4px;
 }/*# sourceMappingURL=navbar.css.map */
