@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Navbar2 from "./components/Navbar2";
 // import Methodologie from "./pages/Methodologie";
 // import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
@@ -34,6 +35,7 @@ root.render(
       />
     </Helmet> */}
     <Navbar />
+    {/* <Navbar2 /> */}
 
     <Routes>
       <Route path="/" element={<Home />} />

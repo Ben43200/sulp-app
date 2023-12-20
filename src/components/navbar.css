@@ -187,4 +187,12 @@ h1 {
   font-family: "fontawesome";
   font-weight: 900;
   padding-left: 4px;
+}
+
+.burger-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
 }/*# sourceMappingURL=navbar.css.map */
