@@ -230,6 +230,7 @@ h1 {
   font-family: "fontawesome";
   font-weight:900;
   padding-left: 4px;
+  // position: absolute;
 }
 
 .burger-icon span {
@@ -238,4 +239,8 @@ h1 {
   height: 3px;
   background-color: white;
   margin: 6px 0;
+}
+
+.drop-icon{
+  display: flex;
 }

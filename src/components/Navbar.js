@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className={`nav-elements  ${showNavbar && "active"}`}>
             <ul>
               <li>
-                <NavLink to="/" onClick={handleOpen}>
+                <NavLink to="/" onClick={handleShowNavbar}>
                   Home
                 </NavLink>
               </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
               {/* <div className="dropdown"> */}
               <li className="drop" onClick={handleOpen}>
-                Compétences<i className="fas fa-chevron-down"></i>
+                <div className="drop-icon">Compétences<i className="fas fa-chevron-down"></i></div>
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">

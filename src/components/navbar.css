@@ -195,4 +195,8 @@ h1 {
   height: 3px;
   background-color: white;
   margin: 6px 0;
+}
+
+.drop-icon {
+  display: flex;
 }/*# sourceMappingURL=navbar.css.map */
