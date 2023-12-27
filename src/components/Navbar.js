@@ -58,18 +58,28 @@ const Navbar = () => {
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">
-                      <NavLink to="/contact" onClick={handleShowNavbar}>
-                        Contact
+                      <NavLink to="/famille" onClick={handleShowNavbar}>
+                        Droit de la famille
                       </NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink to="/contact" onClick={handleShowNavbar}>
-                        Contact
+                      <NavLink to="/immobiler" onClick={handleShowNavbar}>
+                        Droit immobilier
+                      </NavLink>
+                    </li>
+                    <li className="menu-item">
+                      <NavLink to="/affaires" onClick={handleShowNavbar}>
+                        Droit des affaires
                       </NavLink>
                     </li>
                   </ul>
                 ) : null}
                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
+              </li>
+              <li>
+                <NavLink to="/tarifs" onClick={handleShowNavbar}>
+                  Tarifs
+                </NavLink>
               </li>
               <li>
                 <NavLink to="/contact" onClick={handleShowNavbar}>
