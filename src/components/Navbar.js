@@ -28,7 +28,6 @@ const Navbar = () => {
         <div className="container">
           {/* <div className="logo"> */}
           {/* <Brand /> */}
-          {/* <img src={logo} className='logo-1' alt="logo" /> */}
           <div className="brand"></div>
           {/* </div> */}
           <div className="menu-icon" onClick={handleShowNavbar}>
@@ -92,6 +91,7 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="title-container">
+
         <h1>Maître Jean-François Sulpice, Notaire à Neuville-les-dames</h1>
       </div>
     </header>

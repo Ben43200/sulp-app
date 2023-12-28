@@ -38,21 +38,21 @@ header {
   }
 }
 
-.logo-1 {
-  width: 17%;
-  height: 60px;
-  @include media(tablet) {
-    // border-radius: 25px;
-    // height: 140px;
-    width: 7%;
-  }
-  @include media(laptop-desktop) {
-    // border-radius: 25px;
-    // height: 140px;
-    width: 6%;
-  }
-  // padding-top: 10px;
-}
+// .logo-1 {
+//   width: 17%;
+//   height: 60px;
+//   @include media(tablet) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     width: 7%;
+//   }
+//   @include media(laptop-desktop) {
+//     // border-radius: 25px;
+//     // height: 140px;
+//     width: 6%;
+//   }
+//   // padding-top: 10px;
+// }
 
 .menu-icon {
   display: none;
@@ -251,3 +251,4 @@ h1 {
 .drop-icon{
   display: flex;
 }
+

@@ -18,6 +18,7 @@ body {
 
 header {
   box-shadow: 10px 5px 5px grey;
+  border-radius: 10px;
 }
 
 .navbar {
@@ -30,21 +31,6 @@ header {
 @media screen and (min-width: 1024px) {
   .navbar {
     width: 1240px;
-  }
-}
-
-.logo-1 {
-  width: 17%;
-  height: 60px;
-}
-@media screen and (min-width: 768px) {
-  .logo-1 {
-    width: 7%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .logo-1 {
-    width: 6%;
   }
 }
 
@@ -148,6 +134,13 @@ header {
   width: 100%;
   padding-top: 4px;
 }
+@media screen and (min-width: 768px) {
+  .menu > li {
+    padding-top: 7px;
+    background-color: #131f53;
+    width: 130px;
+  }
+}
 
 .drop {
   color: white;
@@ -167,7 +160,7 @@ h1 {
   }
 }
 .title-container {
-  height: 9rem;
+  height: 13rem;
   background-color: #131f53;
   display: flex;
   justify-content: center;

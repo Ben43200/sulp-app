@@ -3,6 +3,8 @@
 // import background from "../../images/background-banner.png";
 // import React, { useEffect, useState } from "react";
 import React from "react";
+import logo from "../logo.png"
+
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
 // import Footer from "../components/Footer";
@@ -15,6 +17,8 @@ import "./home.scss";
 export default function Home() {
   return (
 <main>
+<div className="logo-container"> <img src={logo} className='logo-1' alt="logo" /></div>
+
     <h2>Notaire</h2>
     </main>
   )
