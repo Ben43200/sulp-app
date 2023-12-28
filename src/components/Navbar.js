@@ -92,7 +92,7 @@ const Navbar = () => {
       </nav>
       <div className="title-container">
 
-        <h1>Maître Jean-François Sulpice, Notaire à Neuville-les-dames</h1>
+        <h1>Maître Jean-François Sulpice, Notaire à Neuville-les-Dames</h1>
       </div>
     </header>
   );
