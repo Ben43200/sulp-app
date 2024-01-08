@@ -25,7 +25,6 @@ export default function Home() {
 </div> */}
 <Carousel images={stockData} />
 
-    <h2>Notaire</h2>
     </main>
   )
 }
