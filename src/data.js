@@ -1,9 +1,7 @@
 export const stockData = [
-    "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    
+    "https://lh3.googleusercontent.com/p/AF1QipOiCGWMYwqakmaRTTBmEprsBZKdeSTz4INEAjss=s1766-w1766-h1716-rw",
+    "https://lh3.googleusercontent.com/p/AF1QipPpHcMRo4tiiJ4CSYI4uEGW3WtGkjwowqR92Qu9=s1766-w1766-h1716-rw",
+    "https://lh3.googleusercontent.com/p/AF1QipN6SOZdPb4Ctkk0WYbzQnHSG-XBUuKtV12Ni4ne=s1766-w1766-h1716-rw",
     "https://lh3.googleusercontent.com/p/AF1QipN49M4LstGnW3MalTVa8mfobs5pY2dAADNb8qdJ=s1766-w1766-h1716-rw"
   ];
