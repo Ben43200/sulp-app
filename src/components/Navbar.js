@@ -9,6 +9,8 @@ import React from "react";
 import "./navbar.scss";
 // import { Squeeze as Hamburger } from 'hamburger-react'
 // import { Squeeze as Hamburger } from 'hamburger-react'
+import logo from "../logo.png"
+import logonotaire from "../logo-notaire.png"
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -29,10 +31,14 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar">
+
+          <div className="brand"></div>
         <div className="container">
           {/* <div className="logo"> */}
           {/* <Brand /> */}
-          <div className="brand"></div>
+           <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
+<img src={logonotaire} className='logo-not' alt="logo" /></div>
+          {/* <div className="brand"></div> */} 
           {/* </div> */}
           <div className="menu-icon" onClick={handleShowNavbar}>
             {/* <Hamburger /> */}
@@ -95,7 +101,8 @@ const Navbar = () => {
         </div>
       </nav>
       <div className="title-container">
-
+      {/* <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
+<img src={logonotaire} className='logo-not' alt="logo" /></div> */}
         <h1>Maître Jean-François Sulpice, Notaire à Neuville-les-Dames</h1>
       </div>
     </header>

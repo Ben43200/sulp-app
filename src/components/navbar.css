@@ -9,7 +9,7 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-right: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ header {
 }
 
 .navbar {
-  height: 70px;
+  height: 90px;
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   background: #164F9D;
   position: fixed;
@@ -101,9 +101,9 @@ header {
     position: fixed;
   }
   .nav-elements.active {
-    width: 200px;
     opacity: 0.95;
     position: fixed;
+    width: 173px;
   }
   .nav-elements ul {
     display: flex;
