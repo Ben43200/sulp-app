@@ -52,7 +52,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <NavLink to="/" onClick={closeAndTop}>
-                  Home
+                  Accueil
                 </NavLink>
               </li>
               <li>
