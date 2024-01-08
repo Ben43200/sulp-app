@@ -5,4 +5,5 @@ export const stockData = [
     "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://lh3.googleusercontent.com/p/AF1QipN49M4LstGnW3MalTVa8mfobs5pY2dAADNb8qdJ=s1766-w1766-h1716-rw"
   ];
