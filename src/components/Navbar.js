@@ -21,6 +21,10 @@ const Navbar = () => {
   const handleOpen = () => {
     setOpen(!open);
   };
+  const closeAndTop = () => {
+    window.scrollTo(0, 0);
+    setShowNavbar(!showNavbar);
+  };
 
   return (
     <header>
@@ -41,12 +45,12 @@ const Navbar = () => {
           <div className={`nav-elements  ${showNavbar && "active"}`}>
             <ul>
               <li>
-                <NavLink to="/" onClick={handleShowNavbar}>
+                <NavLink to="/" onClick={closeAndTop}>
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/mission" onClick={handleShowNavbar}>
+                <NavLink to="/mission" onClick={closeAndTop}>
                   Etude
                 </NavLink>
               </li>
@@ -57,17 +61,17 @@ const Navbar = () => {
                 {open ? (
                   <ul className="menu">
                     <li className="menu-item">
-                      <NavLink to="/famille" onClick={handleShowNavbar}>
+                      <NavLink to="/famille" onClick={closeAndTop}>
                         Droit de la famille
                       </NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink to="/immobiler" onClick={handleShowNavbar}>
+                      <NavLink to="/immobiler" onClick={closeAndTop}>
                         Droit immobilier
                       </NavLink>
                     </li>
                     <li className="menu-item">
-                      <NavLink to="/affaires" onClick={handleShowNavbar}>
+                      <NavLink to="/affaires" onClick={closeAndTop}>
                         Droit des affaires
                       </NavLink>
                     </li>
@@ -76,12 +80,12 @@ const Navbar = () => {
                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
               </li>
               <li>
-                <NavLink to="/tarifs" onClick={handleShowNavbar}>
+                <NavLink to="/tarifs" onClick={closeAndTop}>
                   Tarifs
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/contact" onClick={handleShowNavbar}>
+                <NavLink to="/contact" onClick={closeAndTop}>
                   Contact
                 </NavLink>
               </li>
