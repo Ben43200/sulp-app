@@ -20,7 +20,8 @@ body {
   height: 100%;
 }
 header {
-  box-shadow: 10px 5px 5px grey;
+  // box-shadow: 10px 5px 5px grey;
+  box-shadow: 4px 3px 5px black;
   border-radius: 10px;
 }
 
@@ -30,6 +31,7 @@ header {
   //   background-color: #fef7e5;
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   background: #164F9D;
+  box-shadow: 4px 3px 5px black;
 
   // grid-area: header;
   // width: 100vw;
