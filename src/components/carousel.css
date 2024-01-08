@@ -10,7 +10,7 @@
     aspect-ratio: 46/25;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .carousel {
     aspect-ratio: 400/255;
     margin-bottom: 20px;
@@ -24,7 +24,7 @@
      object-fit: cover;
   border-radius: 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .carousel > img {
     border-radius: 25px;
   }
@@ -32,7 +32,7 @@
 .carousel > aside {
   visibility: hidden;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .carousel > aside {
     visibility: visible;
     grid-area: position;
@@ -57,7 +57,7 @@
   color: white;
 }
 .carousel .arrow-left::before {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 2rem;
   font-weight: bold;
   content: "\f053";
@@ -68,7 +68,7 @@
     font-size: 4rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .carousel .arrow-left::before {
     font-size: 5rem;
   }
@@ -77,7 +77,7 @@
   font-weight: bold;
   content: "\f054";
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 @media screen and (min-width: 768px) {
@@ -85,7 +85,7 @@
     font-size: 4rem;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .carousel .arrow-right::before {
     font-size: 5rem;
   }
