@@ -180,4 +180,14 @@ h2 {
   height: 100%;
   z-index: 200;
   box-shadow: 4px 3px 5px black;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media screen and (min-width: 1024px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=home.css.map */

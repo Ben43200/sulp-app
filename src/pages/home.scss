@@ -143,3 +143,12 @@ h2{
   // border: 2px solid black;
   box-shadow: 4px 3px 5px black
 }
+
+.home-container{
+  display: grid;
+  grid-template-columns: 1fr;
+@include media(desktop) {
+
+  grid-template-columns: 1fr 1fr;
+}
+}

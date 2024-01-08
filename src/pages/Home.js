@@ -19,7 +19,7 @@ import "./home.scss";
 // const imageLarge = "../../compress-image-large.webp"
 export default function Home() {
   return (
-<main>
+<main className="home-container">
 {/* <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
 <img src={logonotaire} className='logo-not' alt="logo" />
 </div> */}

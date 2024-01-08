@@ -4,7 +4,7 @@
     aspect-ratio: 335/255;
 
 
-    grid-area: carousel;
+    // grid-area: carousel;
     display: grid;
     grid-template-areas:
         'imageStart . . '
@@ -14,12 +14,19 @@
     grid-template-columns: repeat(3, 1fr);
     @include media(tablet) {
         // aspect-ratio: 500/255;
-    aspect-ratio:400/255;
+    // aspect-ratio:400/255;
+    // aspect-ratio:4/2;
+    aspect-ratio:46/25;
+
+
+
+    
 
     }
     @include media(desktop) {
-        aspect-ratio: 1240/415;
-    // aspect-ratio:400/255;
+        // aspect-ratio: 1240/415;
+
+    aspect-ratio:400/255;
 
         margin-bottom: 20px;
     }
@@ -60,7 +67,8 @@
         color: white;
     }
     .arrow-left::before {
-        font-size: 1.5rem;
+        // font-size: 1.5rem;
+        font-size: 3rem;
         padding: 2rem;
         font-weight: bold;
         content: '\f053';
@@ -76,7 +84,9 @@
         font-weight: bold;
         content: '\f054';
         font-style: normal;
-        font-size: 1.5rem;
+        // font-size: 1.5rem;
+        font-size: 3rem;
+
         padding: 2rem;
         @include media(tablet) {
             font-size: 4rem;
