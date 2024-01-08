@@ -175,6 +175,7 @@ header {
   //   display: block;
   .menu {
     position: relative;
+    width: 150px;
   }
 }
 
@@ -252,4 +253,9 @@ h1 {
 .drop-icon{
   display: flex;
 }
+
+.nav-elements.active > a  {
+  width: 200px;
+}
+
 

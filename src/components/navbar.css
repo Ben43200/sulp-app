@@ -128,6 +128,7 @@ header {
 @media (max-width: 600px) {
   .menu {
     position: relative;
+    width: 150px;
   }
 }
 .menu > li {
@@ -192,4 +193,8 @@ h1 {
 
 .drop-icon {
   display: flex;
+}
+
+.nav-elements.active > a {
+  width: 200px;
 }/*# sourceMappingURL=navbar.css.map */
