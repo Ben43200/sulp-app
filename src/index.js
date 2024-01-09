@@ -15,6 +15,8 @@ import Navbar2 from "./components/Navbar2";
 // import ScrollToTop from "./components/ScrollToTop";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
+import Tarifs from "./pages/Tarifs";
+import Error from "./pages/Error";
 
 
 // import "./css/common.scss";
@@ -40,13 +42,13 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
 
-      {/* <Route path="/methodologie" element={<Methodologie />} /> */}
+      <Route path="/tarifs" element={<Tarifs />} />
       {/* <Route path="/mission" element={<Mission />} /> */}
       {/* <Route path="/contact" element={<Mission />} /> */}
 
 
       {/* <Route path="/examples" element={<Examples />} /> */}
-      {/* <Route path="*" element={<Error />} /> */}
+      <Route path="*" element={<Error />} />
 
     </Routes>
     <Footer />
