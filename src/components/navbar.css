@@ -80,10 +80,9 @@ header {
 @media (max-width: 768px) {
   .nav-elements ul li {
     margin-right: 30px;
-    padding-left: 10px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -104,7 +103,7 @@ header {
   .nav-elements.active {
     opacity: 0.95;
     position: fixed;
-    width: 173px;
+    width: 180px;
   }
   .nav-elements ul {
     display: flex;
@@ -139,7 +138,6 @@ header {
 @media screen and (min-width: 768px) {
   .menu > li {
     padding-top: 7px;
-    background-color: #131f53;
     width: 130px;
   }
 }
@@ -153,7 +151,7 @@ h1 {
   color: white;
   text-align: center;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 @media screen and (min-width: 1025px) {
