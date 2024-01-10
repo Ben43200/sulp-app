@@ -6,7 +6,7 @@ export default function Tarifs() {
   <main>
 
 <h1 className="tarifs">TARIF DES PETITS ACTES AU 1 ER JUILLET 2023</h1>
-<ul>
+<ul className="tarifs-list">
 <li>NOTORIETE 350,00 € TTC</li>
 
 <li>DONATION ENTRE EPOUX (2 x 3 pages) 380,00 € TTC</li>
