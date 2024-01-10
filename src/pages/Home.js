@@ -7,6 +7,7 @@ import logo from "../logo.png"
 import logonotaire from "../logo-notaire.png"
 import Carousel from "../components/Carousel";
 import {stockData} from "../data"
+import fond from "../Utils/Façade_8.webp"
 
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
