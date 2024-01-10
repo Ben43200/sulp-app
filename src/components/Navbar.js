@@ -56,7 +56,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/mission" onClick={closeAndTop}>
+                <NavLink to="/etude" onClick={closeAndTop}>
                   Etude
                 </NavLink>
               </li>

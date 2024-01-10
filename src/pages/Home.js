@@ -23,7 +23,7 @@ export default function Home() {
 {/* <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
 <img src={logonotaire} className='logo-not' alt="logo" />
 </div> */}
-<Carousel images={stockData} />
+{/* <Carousel images={stockData} /> */}
 
     </main>
   )

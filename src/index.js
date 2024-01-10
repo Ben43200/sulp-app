@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Navbar2 from "./components/Navbar2";
+import Etude from "./pages/Etude";
 // import Methodologie from "./pages/Methodologie";
 // import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
@@ -47,7 +48,7 @@ root.render(
       {/* <Route path="/contact" element={<Mission />} /> */}
 
 
-      {/* <Route path="/examples" element={<Examples />} /> */}
+      <Route path="/etude" element={<Etude />} />
       <Route path="*" element={<Error />} />
 
     </Routes>
