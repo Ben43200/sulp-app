@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   /* remember to define focus styles! */
   /* tables still need 'cellspacing="0"' in the markup */
@@ -78,10 +79,6 @@
   color: black;
   background: white;
 }
-* ol,
-* ul {
-  list-style: none;
-}
 * table {
   border-collapse: separate;
   border-spacing: 0;
@@ -107,6 +104,7 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
+  color: white;
 }
 
 #root {
@@ -188,8 +186,37 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
 }
-@media screen and (min-width: 1025px) {
-  .home-container {
-    grid-template-columns: 1fr 1fr;
-  }
+
+.home-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(43, 43, 41, 0.5), rgba(48, 48, 49, 0.389)), url("../Utils/Façade_8.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-container > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.4;
+}
+
+.presentation-title {
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.presentation-list {
+  padding: 10px;
+}
+
+.presentation-list > li {
+  padding: 10px 0px;
+}
+
+#root > main {
+  padding: 5px 15px;
 }/*# sourceMappingURL=home.css.map */

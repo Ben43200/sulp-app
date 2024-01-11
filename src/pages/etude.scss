@@ -1,0 +1,11 @@
+@import "../css/mixinsandfunctions.scss";
+
+.etude-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5px;
+  @include media(desktop) {
+  
+    grid-template-columns: 1fr 1fr;
+  }
+  }

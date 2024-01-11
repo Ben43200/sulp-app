@@ -1,0 +1,10 @@
+etude-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+}
+@media screen and (min-width: 1025px) {
+  etude-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}/*# sourceMappingURL=etude.css.map */

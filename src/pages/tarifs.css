@@ -1,9 +1,21 @@
 .tarifs-list > li {
-  padding-top: 15px;
+  padding: 10px 0px;
   font-weight: bold;
+  color: black;
+  margin-left: 15px;
 }
 
 .tarifs {
   color: #2743c1;
   font-weight: 700;
+}
+
+.sub-list > li {
+  color: black;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.sub-list {
+  color: black;
 }/*# sourceMappingURL=tarifs.css.map */
