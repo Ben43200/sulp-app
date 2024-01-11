@@ -155,10 +155,10 @@ h2{
 .home-container{
   display: grid;
   grid-template-columns: 1fr;
-@include media(desktop) {
+// @include media(desktop) {
 
-  grid-template-columns: 1fr 1fr;
-}
+//   grid-template-columns: 1fr 1fr;
+// }
 }
 
 .home-container{
@@ -167,13 +167,14 @@ h2{
 background-image: linear-gradient(   to bottom,
 rgba(7, 7, 6, 0.5),
 rgba(200, 200, 216, 0.389)),url("../Utils/Façade_8.webp");
+// background-image:url("../Utils/Façade_8.webp"); 
 
 background-size: cover;
 // background-size: contain;
 // background-repeat: no-repeat;
 background-position: center;
 // background-size: auto;
-opacity: 0.7;
+
 
 // backdrop-filter: blur(2px);
 // background-image: url("../Utils/Façade_8.webp");;
@@ -182,4 +183,18 @@ opacity: 0.7;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  opacity: 0.4;
+}
+
+.presentation-title{
+  font-size:50px;
+  color:black;
+  color: white;
+  // color: #164F9D;
+  // color: #131f53;
+  margin:0;
+}
+
+.presentation-list {
+list-style-type: disc;
 }
