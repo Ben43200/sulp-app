@@ -4,8 +4,7 @@ import "./error.scss";
 
 
 export default function Error() {
-    return (<div>
-   
+    return (
 
         <main className="error">
 
@@ -18,7 +17,7 @@ export default function Error() {
                 </Link>
             </div>
         </main>
-    </div>
+    // </div>
 
     );
 }

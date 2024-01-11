@@ -11,7 +11,7 @@
 .errorTitle {
   font-size: 96px;
   font-weight: 700;
-  color: $primary-color;
+  // color: $primary-color;
   margin: 0;
   @include media(desktop) {
     font-size: 288px;
@@ -23,7 +23,7 @@
   font-weight: 500;
   line-height: normal;
   text-align: center;
-  color: $primary-color;
+  // color: $primary-color;
   width: 260px;
   margin-top: -40px;
   @include media(desktop) {
@@ -35,7 +35,7 @@
 
 .errorLinkHome {
   font-size: 14px;
-  color: $primary-color;
+  // color: $primary-color;
   @include media(desktop) {
     font-size: 18px;
   }
@@ -46,4 +46,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#root >main{
+  grid-area: main;
 }
