@@ -156,6 +156,7 @@ h2{
 .home-container{
   display: grid;
   grid-template-columns: 1fr;
+ 
   // padding: 5px;
 // @include media(desktop) {
 
@@ -168,10 +169,14 @@ h2{
 
   width: 100%;
   height: 100%;
+// background-image: linear-gradient(   to right,
+// rgba(83, 83, 77, 0.5),
+// rgba(165, 157, 36, 0.389)),url("../Utils/Façade_Etude_Copie_modifiée.jpg");
 background-image: linear-gradient(   to right,
 rgba(83, 83, 77, 0.5),
-rgba(165, 157, 36, 0.389)),url("../Utils/Façade_Etude_Copie_modifiée.jpg");
+rgba(249, 249, 248, 0.286)),url("../Utils/Façade_Etude_Copie_modifiée.jpg");
 // background-image:url("../Utils/Façade_Etude_Copie_modifiée.jpg"); 
+// background-image:  linear-gradient(270deg, rgba(255,215,0,1) 0%, rgba(153,153,153,1)),url("../Utils/Façade_Etude_Copie_modifiée.jpg");
 
 background-size: cover;
 // background-size: contain;
@@ -181,7 +186,7 @@ background-position: center;
 
 
 // backdrop-filter: blur(2px);
-// background-image: url("../Utils/Façade_8.webp");;
+// background-image: url("../Utils/Façade_8.webp");
 }
 .home-container >img{
   height: 100%;
@@ -210,4 +215,22 @@ padding: 10px 0px;
 
 #root >main{
   padding: 5px  15px;
+  // color: yellow;
+  // color: black;
 }
+
+// #root >main::before{
+  
+//     content: ' ';
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 0.4;
+//     background-image: url('../Utils/Façade_Etude_Copie_modifiée.jpg');
+//     background-repeat: no-repeat;
+//     background-position: 50% 0;
+//     background-size: cover;
+//   }
