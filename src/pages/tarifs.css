@@ -1,7 +1,6 @@
 .tarifs-list > li {
   padding: 10px 0px;
   font-weight: bold;
-  color: black;
   margin-left: 15px;
 }
 
@@ -11,11 +10,6 @@
 }
 
 .sub-list > li {
-  color: black;
   font-weight: 500;
   margin-left: 25px;
-}
-
-.sub-list {
-  color: black;
 }/*# sourceMappingURL=tarifs.css.map */

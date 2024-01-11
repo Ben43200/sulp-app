@@ -1,10 +1,23 @@
-etude-container {
+.etude-container {
   display: grid;
   grid-template-columns: 1fr;
   padding: 5px;
 }
 @media screen and (min-width: 1025px) {
-  etude-container {
+  .etude-container {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.carousel-container {
+  background-color: white;
+  padding: 5px;
+  align-self: flex-start;
+}
+@media screen and (min-width: 1025px) {
+  .carousel-container {
+    align-self: center;
+    border-radius: 10px;
+    padding: 20px;
   }
 }/*# sourceMappingURL=etude.css.map */
