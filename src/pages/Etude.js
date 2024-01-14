@@ -2,6 +2,7 @@ import React from "react"
 import { stockData } from "../data"
 import Carousel from "../components/Carousel"
 import "./etude.scss"
+import ContactForm from "../components/ContactForm"
 
 export default function Etude() {
     return (
@@ -11,6 +12,7 @@ export default function Etude() {
   </div> */}
   <div className=" carousel-container">
   <Carousel images={stockData} />
+  <ContactForm />
   </div>
       </main>
     )
