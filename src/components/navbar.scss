@@ -215,10 +215,10 @@ header {
 }
 }
 
-.menu > li:hover {
-  // display: flex;
-  //   background-color: lightgray;
-}
+// .menu > li:hover {
+//   // display: flex;
+//   //   background-color: lightgray;
+// }
 .drop {
   color: white;
   // top: 0;
@@ -239,7 +239,8 @@ h1 {
   }
 }
 .title-container {
-  height: 13rem;
+  // height: 13rem;
+  height: 10rem;
   background-color: #131f53;
   display: flex;
   justify-content: center;

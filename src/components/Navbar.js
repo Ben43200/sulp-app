@@ -11,11 +11,11 @@ const Navbar = () => {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
 
-  const handleOpen = () => {
-    setOpen(!open);
-  };
+  // const handleOpen = () => {
+  //   setOpen(!open);
+  // };
   const closeAndTop = () => {
     window.scrollTo(0, 0);
     setShowNavbar(!showNavbar);
@@ -55,20 +55,21 @@ const Navbar = () => {
               </li>
 
               {/* <div className="dropdown"> */}
-              <li className="drop" onClick={handleOpen}>
+              {/* <li className="drop" onClick={handleOpen}>
                 <div className="drop-icon">Compétences<i className="fas fa-chevron-down"></i></div>
                 {open ? (
                   <ul className="menu">
-                    <li className="menu-item">
-                      <NavLink to="/famille" onClick={closeAndTop}>
-                        Droit de la famille
+                    <li className="menu-item"> */}
+                    <li>
+                      <NavLink to="/Competences" onClick={closeAndTop}>
+                       Compétences
                       </NavLink>
                     </li>
-                    <li className="menu-item">
-                      <NavLink to="/immobiler" onClick={closeAndTop}>
+                    {/* <li className="menu-item"> */}
+                      {/* <NavLink to="/immobiler" onClick={closeAndTop}>
                         Droit immobilier
-                      </NavLink>
-                    </li>
+                      </NavLink> */}
+                    {/* </li>
                     <li className="menu-item">
                       <NavLink to="/affaires" onClick={closeAndTop}>
                         Droit des affaires
@@ -77,7 +78,7 @@ const Navbar = () => {
                   </ul>
                 ) : null}
                 {/* {open ? <div>Is Open</div> : <div>Is Closed</div>} */}
-              </li>
+              {/* </li> */} 
               <li>
                 <NavLink to="/tarifs" onClick={closeAndTop}>
                   Tarifs

@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Navbar2 from "./components/Navbar2";
+// import Navbar2 from "./components/Navbar2";
 import Etude from "./pages/Etude";
 // import Methodologie from "./pages/Methodologie";
 // import Mission from "./pages/Mission";
@@ -18,6 +18,7 @@ import Etude from "./pages/Etude";
 // import { Helmet } from "react-helmet";
 import Tarifs from "./pages/Tarifs";
 import Error from "./pages/Error";
+import Competences from "./pages/Competences";
 
 
 // import "./css/common.scss";
@@ -50,6 +51,8 @@ root.render(
 
       <Route path="/etude" element={<Etude />} />
       <Route path="*" element={<Error />} />
+      <Route path="/competences" element={<Competences />} />
+
 
     </Routes>
     <Footer />
