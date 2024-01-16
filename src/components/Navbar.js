@@ -61,7 +61,7 @@ const Navbar = () => {
                   <ul className="menu">
                     <li className="menu-item"> */}
                     <li>
-                      <NavLink to="/Competences" onClick={closeAndTop}>
+                      <NavLink to="/Famille" onClick={closeAndTop}>
                        Compétences
                       </NavLink>
                     </li>

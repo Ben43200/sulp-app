@@ -1,7 +1,18 @@
+@import "../css/mixinsandfunctions.scss";
+
 .menu-comp{
+     flex-direction: column;
+
+    @include media(desktop) {
+        // font-size: 5rem;
+    
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
     background-color: black;
     height: 2rem;
+    align-items: center;
+    }
+    
 }
