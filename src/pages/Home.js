@@ -3,12 +3,12 @@
 // import background from "../../images/background-banner.png";
 // import React, { useEffect, useState } from "react";
 import React from "react";
-import logo from "../logo.png"
-import logonotaire from "../logo-notaire.png"
+// import logo from "../logo.png"
+// import logonotaire from "../logo-notaire.png"
 import Carousel from "../components/Carousel";
 import {stockData} from "../data"
-import fond from "../Utils/Façade_8.webp"
-import ContactForm from "../components/ContactForm";
+// import fond from "../Utils/Façade_8.webp"
+// import ContactForm from "../components/ContactForm";
 
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
@@ -55,7 +55,7 @@ prestations personalisées et de qualités.</p> */}
 <div className="carousel-container">
   <Carousel images={stockData} />
 
-  <ContactForm />
+  {/* <ContactForm /> */}
   </div>
     </main>
   )

@@ -1,8 +1,8 @@
 import React from "react"
-import { stockData } from "../data"
-import Carousel from "../components/Carousel"
+// import { stockData } from "../data"
+// import Carousel from "../components/Carousel"
 import "./etude.scss"
-import ContactForm from "../components/ContactForm"
+// import ContactForm from "../components/ContactForm"
 
 export default function Etude() {
     return (

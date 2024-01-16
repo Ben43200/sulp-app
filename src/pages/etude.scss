@@ -1,26 +1,26 @@
 @import "../css/mixinsandfunctions.scss";
 
-.home-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 5px;
-    // background: white;
-  @include media(desktop) {
+// .home-container{
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     padding: 5px;
+//     // background: white;
+//   @include media(desktop) {
   
-    grid-template-columns: 1fr 1fr;
-  }
-  }
-  .carousel-container{
-    background-color:white;
-    padding: 5px;
-    // padding-bottom: 0;
-    align-self: flex-start;
-    @include media(desktop) {
-    align-self: center;
-    border-radius: 10px;
-    padding: 20px;
-  }
-}
+//     grid-template-columns: 1fr 1fr;
+//   }
+//   }
+//   .carousel-container{
+//     background-color:white;
+//     padding: 5px;
+//     // padding-bottom: 0;
+//     align-self: flex-start;
+//     @include media(desktop) {
+//     align-self: center;
+//     border-radius: 10px;
+//     padding: 20px;
+//   }
+// }
 
 
 .etude-container{
