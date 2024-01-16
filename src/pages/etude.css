@@ -1,10 +1,10 @@
-.etude-container {
+.home-container {
   display: grid;
   grid-template-columns: 1fr;
   padding: 5px;
 }
 @media screen and (min-width: 1025px) {
-  .etude-container {
+  .home-container {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -20,4 +20,33 @@
     border-radius: 10px;
     padding: 20px;
   }
+}
+
+.etude-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-shadow: 1px 1px 5px black;
+  font-weight: bold;
+}
+
+.etude-container > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.4;
+}
+
+.presentation-title {
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.presentation-list {
+  padding: 10px;
+}
+
+.presentation-list > li {
+  padding: 10px 0px;
 }/*# sourceMappingURL=etude.css.map */

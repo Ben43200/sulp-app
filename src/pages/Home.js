@@ -8,6 +8,7 @@ import logonotaire from "../logo-notaire.png"
 import Carousel from "../components/Carousel";
 import {stockData} from "../data"
 import fond from "../Utils/Façade_8.webp"
+import ContactForm from "../components/ContactForm";
 
 // import Navbar from "../../components/Navbar";
 import "./home.scss";
@@ -25,7 +26,7 @@ export default function Home() {
 <img src={logonotaire} className='logo-not' alt="logo" />
 </div> */}
 {/* <Carousel images={stockData} /> */}
-<h2 className="presentation-title">Présentation de l'office</h2>
+{/* <h2 className="presentation-title">Présentation de l'office</h2>
 <p>L’office notarial a été créé en 2018 par Jean-François SULPICE diplômé notaire ayant 25 ans
 d’expériences dans le notariat, mais aussi une expérience préalablement acquise dans la gestion
 immobilière ainsi que l’expertise en évaluations immobilières et commerciales.
@@ -50,7 +51,12 @@ société jusqu’à sa transmission, en passant par le bail commercial, la cess
 commerce, la cession de parts et actions, la fiscalité, le pacte Dutreil.</li>
 </ul>
 <p>Grâce à la proximité et à la réactivité du notaire titulaire de cet office, vous bénéficierez de
-prestations personalisées et de qualités.</p>
+prestations personalisées et de qualités.</p> */}
+<div className="carousel-container">
+  <Carousel images={stockData} />
+
+  <ContactForm />
+  </div>
     </main>
   )
 }
