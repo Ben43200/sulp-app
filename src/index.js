@@ -18,8 +18,9 @@ import Etude from "./pages/Etude";
 // import { Helmet } from "react-helmet";
 import Tarifs from "./pages/Tarifs";
 import Error from "./pages/Error";
-import Competences from "./pages/Competences";
+// import Competences from "./pages/Competences";
 import Famille from "./pages/Famille";
+import Patrimoine from "./pages/Patrimoine";
 
 
 // import "./css/common.scss";
@@ -54,6 +55,8 @@ root.render(
       <Route path="*" element={<Error />} />
       {/* <Route path="/competences" element={<Competences />} /> */}
       <Route path="/famille" element={<Famille />} />
+      <Route path="/patrimoine" element={<Patrimoine />} />
+
 
 
 

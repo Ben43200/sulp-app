@@ -7,10 +7,10 @@ export default function MenuCompetences(){
     return(
         <ul className="menu-comp">
             <li><NavLink to ="/Famille">Le droit de la famille</NavLink></li>
-            <li>Le patrimoine</li>
-            <li>Le droit immobilier</li>
-            <li>Le droit de l'entreprise</li>
-            <li>L'expertise</li>
+            <li><NavLink to ="/Patrimoine">Le patrimoine</NavLink></li>
+            <li><NavLink to ="/Immobilier">Le droit immobilier</NavLink></li>
+            <li><NavLink to ="/Entreprise">Le droit de l'entreprise</NavLink></li>
+            <li><NavLink to ="/Expertise">L'expertise</NavLink></li>
         </ul>
     )
 }

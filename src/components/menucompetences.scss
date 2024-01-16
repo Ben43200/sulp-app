@@ -10,9 +10,41 @@
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    background-color: black;
+    // background-color: black;
+    // background-color: white;
+    background-color:  #164F9D;
+
     height: 2rem;
     align-items: center;
     }
     
 }
+.menu-comp >li >a{
+    text-decoration: none;
+}
+
+.menu-comp >li >a.active {
+    // text-decoration: none;
+    color:red;
+//   background-color: #86b98b;
+//   //     color:red;
+//     content: "";
+//     position: absolute;
+//     bottom: -4px;
+//     left: 0;
+//     width: 100%;
+//     height: 2px;
+
+
+}
+
+// .menu-comp a.active::after {
+//     // color: #164F9D;
+//     color:red;
+//     content: "";
+//     position: absolute;
+//     bottom: -4px;
+//     left: 0;
+//     width: 100%;
+//     height: 2px;
+// }
