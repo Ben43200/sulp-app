@@ -1,6 +1,5 @@
 import React from "react";
-import "./contactform.scss"
-// import { state } from "react";
+import "./contactform.scss";
 import { Component } from 'react';
 import axios from "axios";
 

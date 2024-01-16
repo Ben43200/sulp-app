@@ -1,6 +1,4 @@
 import "./carousel.scss";
-// import  images  from "../data";
-
 import React, { useState } from "react";
 
 export default function Carousel({ images }) {

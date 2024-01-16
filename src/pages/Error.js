@@ -7,8 +7,6 @@ export default function Error() {
     return (
 
         <main className="error">
-
-
             <div className="errorContainer">
                 <p className="errorTitle">404</p>
                 <p className="errorText">Oups! La page que vous demandez n'existe pas.</p>
@@ -17,7 +15,6 @@ export default function Error() {
                 </Link>
             </div>
         </main>
-    // </div>
 
     );
 }

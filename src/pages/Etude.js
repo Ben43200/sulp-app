@@ -1,8 +1,9 @@
 import React from "react"
-// import { stockData } from "../data"
-// import Carousel from "../components/Carousel"
 import "./etude.scss"
-// import ContactForm from "../components/ContactForm"
+
+
+
+
 
 export default function Etude() {
     return (
@@ -33,16 +34,6 @@ commerce, la cession de parts et actions, la fiscalité, le pacte Dutreil.</li>
 </ul>
 <p>Grâce à la proximité et à la réactivité du notaire titulaire de cet office, vous bénéficierez de
 prestations personalisées et de qualités.</p>
-  {/* <div className="etude-container-content"> */}
-  {/* <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
-  <img src={logonotaire} className='logo-not' alt="logo" />
-  </div> */}
-  {/* <div className="carousel-container">
-  <Carousel images={stockData} />
-  {/* <div> */}
-  {/* <ContactForm /> */}
-  {/* </div> */} 
-  {/* </div> */}
       </main>
     )
   }
