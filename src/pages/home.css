@@ -214,6 +214,7 @@ h2 {
 }
 
 #root > main {
+  text-shadow: 1px 1px 5px black;
   width: 100%;
   height: 100%;
   background-image: url("../Utils/Façade_8.webp");

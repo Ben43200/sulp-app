@@ -21,6 +21,9 @@ import Error from "./pages/Error";
 // import Competences from "./pages/Competences";
 import Famille from "./pages/Famille";
 import Patrimoine from "./pages/Patrimoine";
+import Immobilier from "./pages/Immobilier";
+import Entreprise from "./pages/Entreprise";
+import Expertise from "./pages/Expertise";
 
 
 // import "./css/common.scss";
@@ -56,6 +59,13 @@ root.render(
       {/* <Route path="/competences" element={<Competences />} /> */}
       <Route path="/famille" element={<Famille />} />
       <Route path="/patrimoine" element={<Patrimoine />} />
+      <Route path="/immobilier" element={<Immobilier />} />
+      <Route path="/entreprise" element={<Entreprise />} />
+      <Route path="/expertise" element={<Expertise />} />
+
+
+
+      
 
 
 

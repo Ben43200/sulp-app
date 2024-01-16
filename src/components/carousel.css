@@ -97,4 +97,11 @@
 .carousel .arrow-right {
   display: inline-flex;
   font-family: "Font Awesome 5 Free";
+}
+
+.carousel > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=carousel.css.map */
