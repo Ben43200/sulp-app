@@ -105,3 +105,9 @@
         font-family: 'Font Awesome 5 Free';
     }
 }
+
+.carousel >img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
