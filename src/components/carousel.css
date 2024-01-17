@@ -29,16 +29,16 @@
   }
 }
 .carousel > aside {
-  visibility: hidden;
+  visibility: visible;
+  grid-area: position;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
 }
 @media screen and (min-width: 1025px) {
   .carousel > aside {
-    visibility: visible;
-    grid-area: position;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
     font-size: 1.12rem;
   }
 }

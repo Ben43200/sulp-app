@@ -205,8 +205,9 @@ h2 {
 
 .carousel-container {
   background-color: white;
-  padding: 5px;
-  align-self: flex-start;
+  align-self: center;
+  padding: 20px;
+  margin: auto;
 }
 @media screen and (min-width: 1025px) {
   .carousel-container {
@@ -257,9 +258,11 @@ h2 {
   box-shadow: 4px 3px 5px black;
   background-color: #164F9D;
   padding: 20px 5px;
+  width: 100%;
+  justify-content: center;
 }
 @media screen and (min-width: 1025px) {
   .contact-form-container {
-    padding: 40px;
+    padding: 35px;
   }
 }/*# sourceMappingURL=home.css.map */

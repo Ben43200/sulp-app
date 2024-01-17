@@ -12,6 +12,9 @@
         '. position imageEnd';
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    // padding:15px;
+    // margin-top: auto;
+    // padding: 20px;
     @include media(tablet) {
         // aspect-ratio: 500/255;
     // aspect-ratio:400/255;
@@ -41,14 +44,21 @@
         }
     }
     & > aside {
-        visibility: hidden;
+        // visibility: hidden;
+        visibility: visible;
+        grid-area: position;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1rem;
         @include media(desktop) {
-            visibility: visible;
-            grid-area: position;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+            // visibility: visible;
+            // grid-area: position;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // color: white;
             font-size: 1.12rem;
         }
     }
