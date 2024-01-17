@@ -175,6 +175,7 @@ h2{
 @include media(desktop) {
 
   grid-template-columns: 1fr 1fr;
+  
 }
 }
 .carousel-container{
@@ -261,6 +262,10 @@ padding: 10px 0px;
   // color: black;
 }
 
+.contact-form-container{
+  background-color:#131f53
+}
+
 // #root >main::before{
   
 //     content: ' ';
@@ -310,3 +315,5 @@ padding: 10px 0px;
 
 
 // Essai fin
+
+
