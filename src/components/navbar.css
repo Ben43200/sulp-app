@@ -169,7 +169,6 @@ h1 {
   align-content: center;
   align-items: center;
   width: 100%;
-  border-radius: 10px;
   z-index: 98;
 }
 @media screen and (min-width: 1025px) {
