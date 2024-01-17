@@ -193,9 +193,12 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
   padding: 5px;
+  justify-items: center;
+  row-gap: 30px;
 }
 @media screen and (min-width: 1025px) {
   .home-container {
+    align-items: center;
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -249,5 +252,14 @@ h2 {
 }
 
 .contact-form-container {
-  background-color: #131f53;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 4px 3px 5px black;
+  background-color: #164F9D;
+  padding: 20px 5px;
+}
+@media screen and (min-width: 1025px) {
+  .contact-form-container {
+    padding: 40px;
+  }
 }/*# sourceMappingURL=home.css.map */

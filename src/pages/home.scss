@@ -171,8 +171,12 @@ h2{
   display: grid;
   grid-template-columns: 1fr;
   padding: 5px;
+  justify-items: center;
+  row-gap:30px;
+
   // background: white;
 @include media(desktop) {
+  align-items: center;
 
   grid-template-columns: 1fr 1fr;
   
@@ -199,6 +203,7 @@ h2{
 
   width: 100%;
   height: 100%;
+
 // background-image: linear-gradient(   to right,
 // rgba(83, 83, 77, 0.5),
 // rgba(165, 157, 36, 0.389)),url("../Utils/Façade_Etude_Copie_modifiée.jpg");
@@ -263,7 +268,28 @@ padding: 10px 0px;
 }
 
 .contact-form-container{
-  background-color:#131f53
+  // background-color:#131f53;
+  // background-color: black;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 4px 3px 5px black;
+  // gap:20px;
+  background-color: #164F9D;
+  padding: 20px 5px;
+  // aspect-ratio: 335/255;
+
+  @include media(desktop) {
+  padding:40px;
+
+
+
+  // height:30rem;
+  // aspect-ratio:  400/255;
+  // display: flex;
+  // border-radius: 10px;
+  // box-shadow: 4px 3px 5px black;
+  // gap:20px;
+}
 }
 
 // #root >main::before{
