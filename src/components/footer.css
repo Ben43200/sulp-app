@@ -1,4 +1,7 @@
 footer {
-  background-color: black;
+  background-color: #131f53;
   height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=footer.css.map */
