@@ -97,7 +97,7 @@ const Navbar = () => {
       <div className="title-container">
       {/* <div className="logo-container"> <img src={logo} className='logo-1' alt="logo" />
 <img src={logonotaire} className='logo-not' alt="logo" /></div> */}
-        <h1>Maître Jean-François SULPICE, Notaire à Neuville-les-Dames</h1>
+        <h1 className="title">Maître Jean-François SULPICE, Notaire à Neuville-les-Dames</h1>
       </div>
     </header>
   );
