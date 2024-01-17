@@ -225,19 +225,20 @@ header {
 }
 
 .title{
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
   text-align: center;
   // padding-top: 50px;
-  padding-top: 90px;
+  // padding-top: 90px;
+  padding: 90px 10px 10px;
 
-}
+
+
 @include media(desktop) {
-  h1 {
     font-size: 30px;
-  }
-}
+  
+}}
 .title-container {
   // height: 13rem;
   height: 10rem;

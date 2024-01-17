@@ -149,18 +149,18 @@ header {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
   text-align: center;
-  padding-top: 90px;
+  padding: 90px 10px 10px;
 }
-
 @media screen and (min-width: 1025px) {
-  h1 {
+  .title {
     font-size: 30px;
   }
 }
+
 .title-container {
   height: 10rem;
   background-color: #131f53;
