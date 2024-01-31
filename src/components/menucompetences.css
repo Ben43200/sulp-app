@@ -3,25 +3,35 @@
   align-items: center;
   display: flex;
   list-style: none;
-  background-color: #164F9D;
+  padding: 40px 0px;
+  width: 100%;
+  background-color: white;
 }
 @media screen and (min-width: 1025px) {
   .menu-comp {
     flex-direction: row;
     justify-content: space-around;
-    height: 2rem;
     align-items: center;
   }
 }
 
 .menu-comp > li > a {
   text-decoration: none;
+  color: black;
 }
 
 .menu-comp > li > a.active {
-  color: red;
+  color: white;
+  background-color: #164F9D;
+  padding: 6px;
+  border-radius: 25px;
+}
+@media screen and (min-width: 1025px) {
+  .menu-comp > li > a.active {
+    padding: 10px;
+  }
 }
 
 .menu-comp > li {
-  padding-top: 5px;
+  padding: 7px 0px;
 }/*# sourceMappingURL=menucompetences.css.map */
