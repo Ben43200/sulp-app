@@ -4,7 +4,7 @@ import "./tarifs.scss";
 export default function Tarifs() {
   return (
     <main>
-      <h1 className="tarifs">TARIF DES PETITS ACTES AU 1 ER JUILLET 2023</h1>
+      <p className="tarifs">TARIF DES PETITS ACTES AU 1 ER JUILLET 2023</p>
       <ul className="tarifs-list">
         <li>NOTORIETE 350,00 € TTC</li>
 
