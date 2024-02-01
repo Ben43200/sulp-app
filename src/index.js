@@ -19,11 +19,11 @@ import Etude from "./pages/Etude/Etude";
 import Tarifs from "./pages/Tarifs/Tarifs";
 import Error from "./pages/Error/Error";
 // import Competences from "./pages/Competences";
-import Famille from "./pages/Competences/Entreprise/Expertise/Famille/Famille";
+import Famille from "./pages/Competences/Famille/Famille";
 import Patrimoine from "./pages/Competences/Patrimoine/Patrimoine";
 import Immobilier from "./pages/Competences/Immobilier/Immobilier";
-import Entreprise from "./pages/Entreprise/Entreprise";
-import Expertise from "./pages/Competences/Entreprise/Expertise/Expertise";
+import Entreprise from "./pages/Competences/Entreprise/Entreprise";
+import Expertise from "./pages/Competences/Expertise/Expertise";
 import MentionsLegales from "./pages/MentionsLegales/MentionsLegales"
 
 

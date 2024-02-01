@@ -1,5 +1,5 @@
 import React from "react";
-import MenuCompetences from "../../../../components/MenuCompetences/MenuCompetences";
+import MenuCompetences from "../../../components/MenuCompetences/MenuCompetences";
 
 
 
