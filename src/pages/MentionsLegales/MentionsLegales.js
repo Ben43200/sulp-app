@@ -8,7 +8,7 @@ export default function MentionsLegales() {
       <h3 className="mentions-subtitle">1Infos Editeur</h3>
       <p className="mentions-details">
         Éditeur : le Site est conçu par Benjamin Dollfus, micro-entrepreneur,
-        Immatriculée sous le n° Siret 514 928 666 000 48 - Code APE 6201Z - 8B
+        Immatriculée sous le n° Siret 514 925 866 000 48 - Code APE 6201Z - 8B
         rue des Jardins 26400 Aouste-sur-sye. Tél. 06.98.55.70.26. Email :
         meteoben@gmail.com.
       </p>
