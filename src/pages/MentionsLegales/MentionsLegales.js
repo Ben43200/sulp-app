@@ -86,7 +86,7 @@ export default function MentionsLegales() {
         Le concepteur du site s’engage à garantir que les photographies et/ou vidéos ajoutées sont
         libres de droit ou dans le cas contraire à mentionner le nom de l’auteur
         du document.</p>
-        <ul>
+        <ul className="copyright">
        <li>©Jean-François Sulpice</li>
        <li>©Benjamin Dollfus</li>
         </ul>
