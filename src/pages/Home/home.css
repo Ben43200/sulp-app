@@ -103,7 +103,6 @@
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  color: white;
 }
 
 #root {
@@ -245,4 +244,8 @@ h2 {
 
 #root > main {
   padding: 20px 15px;
+}
+
+#main > p {
+  color: black;
 }/*# sourceMappingURL=home.css.map */
