@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   /* remember to define focus styles! */
   /* tables still need 'cellspacing="0"' in the markup */
@@ -218,7 +217,6 @@ h2 {
   text-shadow: 1px 1px 5px black;
   width: 100%;
   height: 100%;
-  background-image: url("../../Utils/Façade_8.webp");
   background-size: cover;
   background-position: center;
 }
@@ -247,19 +245,4 @@ h2 {
 
 #root > main {
   padding: 20px 15px;
-}
-
-.contact-form-container {
-  display: flex;
-  border-radius: 10px;
-  box-shadow: 4px 3px 5px black;
-  background-color: #164F9D;
-  padding: 20px 5px;
-  width: 100%;
-  justify-content: center;
-}
-@media screen and (min-width: 1025px) {
-  .contact-form-container {
-    padding: 29px;
-  }
 }/*# sourceMappingURL=home.css.map */
