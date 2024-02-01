@@ -12,4 +12,9 @@
 
 .copyright {
   list-style: none;
+}
+
+.liens-hyper > li {
+  padding: 7px 0px;
+  margin-left: 30px;
 }/*# sourceMappingURL=mentionslegales.css.map */
