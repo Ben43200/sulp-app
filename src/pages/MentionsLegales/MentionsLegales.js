@@ -51,8 +51,8 @@ export default function MentionsLegales() {
         pouvons être reliés par des liens hypertextes et nous vous engageons à
         en prendre connaissance.
       </p>
-      <p className="mentions-details">
-        4. Contenus du site Les informations contenues sur le site engagent
+      <h3 className="mentions-subtitle">
+        4. Contenus du site</h3> <p className="mentions-details">Les informations contenues sur le site engagent
         seule la responsabilité de leur auteur et ne sauraient engager la
         responsabilité de l’Editeur lorsque ce dernier n’est pas l’auteur de ces
         informations. L’Editeur ne donne aucune garantie, explicite ou
