@@ -2,8 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "./navbar.scss";
-import logo from "../logo.png"
-import logonotaire from "../logo-notaire.png"
+import logo from "../../logo.png"
+import logonotaire from "../../logo-notaire.png"
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);

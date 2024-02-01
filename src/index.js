@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import ReactDOM from "react-dom/client";
-import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 // import Navbar2 from "./components/Navbar2";
-import Etude from "./pages/Etude";
+import Etude from "./pages/Etude/Etude";
 // import Methodologie from "./pages/Methodologie";
 // import Mission from "./pages/Mission";
 // import Error from "./pages/Error/Error";
@@ -16,15 +16,15 @@ import Etude from "./pages/Etude";
 // import ScrollToTop from "./components/ScrollToTop";
 // import ScrollToTop from "react-scroll-to-top";
 // import { Helmet } from "react-helmet";
-import Tarifs from "./pages/Tarifs";
-import Error from "./pages/Error";
+import Tarifs from "./pages/Tarifs/Tarifs";
+import Error from "./pages/Error/Error";
 // import Competences from "./pages/Competences";
-import Famille from "./pages/Famille";
-import Patrimoine from "./pages/Patrimoine";
-import Immobilier from "./pages/Immobilier";
-import Entreprise from "./pages/Entreprise";
-import Expertise from "./pages/Expertise";
-import MentionsLegales from "./pages/MentionsLegales"
+import Famille from "./pages/Competences/Entreprise/Expertise/Famille/Famille";
+import Patrimoine from "./pages/Competences/Patrimoine/Patrimoine";
+import Immobilier from "./pages/Competences/Immobilier/Immobilier";
+import Entreprise from "./pages/Entreprise/Entreprise";
+import Expertise from "./pages/Competences/Entreprise/Expertise/Expertise";
+import MentionsLegales from "./pages/MentionsLegales/MentionsLegales"
 
 
 // import "./css/common.scss";
