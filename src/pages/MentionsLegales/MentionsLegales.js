@@ -225,7 +225,7 @@ export default function MentionsLegales() {
           administration de maintenance et d’hébergement
         </li>
       </ul>
-      <h4>ransfert des données hors Union Européenne</h4>
+      <h4>Transfert des données hors Union Européenne</h4>
       <p>
         Certains traitements sont susceptibles de faire l’objet d’un transfert
         de données personnelles dans les pays dont le niveau de protection n’est
