@@ -1,3 +1,11 @@
-.mentions {
+.mentions-title {
   color: black;
+}
+
+.mentions-details {
+  padding: 10px;
+}
+
+.mentions-subtitle {
+  font-size: 20px;
 }/*# sourceMappingURL=mentionslegales.css.map */
