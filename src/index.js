@@ -24,6 +24,7 @@ import Patrimoine from "./pages/Patrimoine";
 import Immobilier from "./pages/Immobilier";
 import Entreprise from "./pages/Entreprise";
 import Expertise from "./pages/Expertise";
+import MentionsLegales from "./pages/MentionsLegales"
 
 
 // import "./css/common.scss";
@@ -62,6 +63,8 @@ root.render(
       <Route path="/immobilier" element={<Immobilier />} />
       <Route path="/entreprise" element={<Entreprise />} />
       <Route path="/expertise" element={<Expertise />} />
+      <Route path="/mentionslegales" element={<MentionsLegales />} />
+
 
 
 
