@@ -22,4 +22,8 @@
   .contact-container > p {
     font-size: 1rem;
   }
+}
+
+.contact-container > p > a {
+  color: white;
 }/*# sourceMappingURL=contact.css.map */
