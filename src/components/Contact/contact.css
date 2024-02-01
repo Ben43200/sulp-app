@@ -1,0 +1,11 @@
+.contact-container {
+  border: 2px solid black;
+  padding: 7rem;
+  background-color: #164F9D;
+  color: white;
+  border-radius: 25px;
+}
+
+.contact-container > p {
+  padding: 10px;
+}/*# sourceMappingURL=contact.css.map */
