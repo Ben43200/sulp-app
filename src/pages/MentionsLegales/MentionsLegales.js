@@ -2,6 +2,7 @@ import React from "react";
 import "./mentionslegales.scss";
 
 export default function MentionsLegales() {
+  window.scrollTo(0, 0);
   return (
     <main>
       <h2 className="mentions-title">Mentions Légales</h2>
