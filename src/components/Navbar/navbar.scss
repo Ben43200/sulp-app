@@ -18,6 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+border-top-right-radius: 10px;
+
 }
 header {
   // box-shadow: 10px 5px 5px grey;
@@ -26,6 +28,8 @@ header {
   // background: #164F9D;
   margin: 0;
   padding: 0;
+border-top-right-radius: 10px;
+
 }
 
 .navbar {
@@ -40,6 +44,8 @@ header {
   // width: 100vw;
   position: fixed;
   width: 100%;
+border-top-right-radius: 10px;
+
   @include media(desktop) {
     width: 1240px;
   }
