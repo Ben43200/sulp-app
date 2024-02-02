@@ -120,6 +120,30 @@ export default function MentionsLegales() {
         <li>©Benjamin Dollfus</li>
         <li>©Freepik</li>
       </ul>
+      <h4 className="mentions-subtitle">6. Inquiétudes</h4>
+      <p>
+        Si vous pensez que l’Editeur n'a pas respecté les points qui précèdent,
+        nous vous remercions de nous le faire savoir en adressant un courrier à
+        l'adresse suivante : Benjamin Dollfus, 8B rue des jardins , 26400
+        Aouste-sur-sye. Nous nous chargerons alors d'identifier et de corriger
+        le problème.
+      </p>
+      <h4 className="mentions-subtitle">
+        {" "}
+        7. Modifications des termes et conditions
+      </h4>
+      L’Editeur peut à tout moment modifier les présentes en actualisant ce
+      site. Ces modifications vous engagent et nous vous recommandons de
+      consulter régulièrement ce site pour prendre connaissance des termes et
+      conditions en vigueur. 
+      
+      <h4 className="mentions-subtitle">10. Médiation de la consommation - Art L 616-1 et R
+      616-1 du code de la consommation</h4>
+      <p> En cas de litige non résolu avec un
+      notaire, vous avez la possibilité de saisir le Médiateur du notariat
+      Médiateur-notariat.notaires.fr : E-mail : mediateurdunotariat@notaires.fr
+      Adresse postale : 60 boulevard de la Tour-Maubourg, 75007 Paris, afin de
+      tenter, avec son aide, de trouver une résolution amiable au conflit.</p>
       <h2 className="mentions-title">Données personnelles</h2>
       <h3 className="mentions-subtitle">
         Politique de protection des données personelles
@@ -132,22 +156,32 @@ export default function MentionsLegales() {
         effectués pour la mise en œuvre du site internet.
       </p>
       <h4>Définitions</h4>
-      <p>
-        Données personnelles : toute information relative à une personne
+      
+        <p>Données personnelles : toute information relative à une personne
         identifiée ou identifiable directement ou indirectement (ci-après, «
-        données » ou « données personnelles »). Traitement de données
+        données » ou « données personnelles »).</p>
+        
+        
+        <p>Traitement de données
         personnelles : toute opération portant sur des données personnelles
         telles que la collecte, l’enregistrement, l’extraction, la modification,
-        etc. (ci-après, « traitement » ou « traitement de données personnelles »
+        etc. (ci-après, « traitement » ou « traitement de données personnelles »</p>
+
+
+
+        <p>
         Personnes concernées : toute personne physique dont les données
         personnelles font l’objet d’un traitement (ci-après, « vous », « vos »
-        ou « personnes concernées »). Responsable de traitement : personne
+        ou « personnes concernées »).</p>
+        <p>Responsable de traitement : personne
         physique ou morale qui détermine la finalité et les moyens du
-        traitement. Délégué à la protection des Données : personne désignée par
+        traitement.</p>
+        <p>Délégué à la protection des Données : personne désignée par
         le responsable de traitement pour notamment contrôler le respect de la
         réglementation, être le point de contact pour les questions relatives
         aux droits des personnes concernées et coopérer avec la Commission
-        nationale de l'informatique et des libertés (CNIL). Cookies :
+        nationale de l'informatique et des libertés (CNIL).</p>
+        <p>Cookies :
         fichierinformatique (traceur) déposé et lu notamment suite à la
         consultation d’un site internet, la lecture d’un courrier électronique,
         l’utilisation d’une application ou d’un logiciel, quel que soit le
@@ -270,61 +304,62 @@ export default function MentionsLegales() {
         et déposer un ou plusieurs cookie(s) sur votre terminal. Ils peuvent
         notamment faciliter votre navigation (ex : mémorisation de votre
         identifiant), établir des statistiques et des mesures d’audience afin
-        d’améliorer le site internet, permettre la publicité ciblée.</p>
-        <ul> 
-          <li>Les cookies
-        fonctionnels sont strictement nécessaires à la fourniture du service
-        expressément demandé par l’utilisateur et à la navigation (ex :
-        adaptation de l’affichage à votre terminal, choix de langue, accès à un
-        espace personnel, etc.). De fait, ils sont dispensés du recueil de
-        consentement.</li>
-        <li> Les cookies analytiques permettent de générer des
-        statistiques liées l’utilisation, la fréquentation générale et la
-        performance du site internet en vue de l’améliorer.</li>
-         <li>????Les cookies « tiers
-        » de partage de contenu sur les réseaux sociaux facilitent le partage du
-        contenu du site internet sur les différentes plateformes sociales. Ils
-        sont déposés via des boutons réseaux sociaux. Pour de plus amples
-        informations sur l’utilisation de vos données, nous vous invitons à
-        consulter les politiques de protection des données des réseaux sociaux
-        concernés.??? </li>
-        <li>Les cookies « tiers » de ciblage (publicité) permettent de
-        proposer des contenus publicitaires personnalisés en fonction de vos
-        centres d’intérêts.</li> 
-        
-        </ul>
-        
-        <p>Liste des cookies utilisés et/ou déposés par notre
-        site internet : </p>
-        <p>Dans le cadre de la mise en œuvre du traitement relatif
-        à la communication externe, nous sommes amenés à utiliser différents
-        cookies. 
-        
-        
-        La liste de ces derniers est accessible depuis une rubrique
-        spécifique « Gestion des cookies » disponible au bas de chaque page du
-        présent site.
-         Pour plus d’information, nous vous invitons à consulter la
-        politique de gestion des données mise en place par chaque éditeur
-        d’outils de traçage (cookies).
-         Gérer les cookies Vous pouvez accepter,
-        refuser ou exprimer vos préférences en matière de cookies directement
-        via le bandeau d’information et de recueil du consentement au dépôt des
-        cookies qui s’affiche lors de votre première visite sur le site. Ce
-        dernier est également accessible depuis une rubrique spécifique «
+        d’améliorer le site internet, permettre la publicité ciblée.
+      </p>
+      <ul>
+        <li>
+          Les cookies fonctionnels sont strictement nécessaires à la fourniture
+          du service expressément demandé par l’utilisateur et à la navigation
+          (ex : adaptation de l’affichage à votre terminal, choix de langue,
+          accès à un espace personnel, etc.). De fait, ils sont dispensés du
+          recueil de consentement.
+        </li>
+        <li>
+          {" "}
+          Les cookies analytiques permettent de générer des statistiques liées
+          l’utilisation, la fréquentation générale et la performance du site
+          internet en vue de l’améliorer.
+        </li>
+        <li>
+          ????Les cookies « tiers » de partage de contenu sur les réseaux
+          sociaux facilitent le partage du contenu du site internet sur les
+          différentes plateformes sociales. Ils sont déposés via des boutons
+          réseaux sociaux. Pour de plus amples informations sur l’utilisation de
+          vos données, nous vous invitons à consulter les politiques de
+          protection des données des réseaux sociaux concernés.???{" "}
+        </li>
+        <li>
+          Les cookies « tiers » de ciblage (publicité) permettent de proposer
+          des contenus publicitaires personnalisés en fonction de vos centres
+          d’intérêts.
+        </li>
+      </ul>
+      <p>Liste des cookies utilisés et/ou déposés par notre site internet : </p>
+      <p>
+        Dans le cadre de la mise en œuvre du traitement relatif à la
+        communication externe, nous sommes amenés à utiliser différents cookies.
+        La liste de ces derniers est accessible depuis une rubrique spécifique «
         Gestion des cookies » disponible au bas de chaque page du présent site.
-        Vous pourrez ainsi revenir, à tout moment, sur les choix effectués
-        antérieurement. Le refus du dépôt de cookies sociaux empêchera toute
-        interaction avec les réseaux sociaux. De même, le refus du dépôt de
-        cookies de ciblage (publicitaire) ne permettra pas la visualisation de
-        certains contenus multimédia. Vous pouvez également gérer les cookies
-        (désactivation, blocage, suppression) depuis votre navigateur ou votre
-        terminal dans le menu « Options » / « Préférences ». La procédure à
-        suivre est généralement décrite dans la rubrique « Aide » de votre
-        navigateur. La mise à jour de la politique La présente Politique de
-        protection des données à caractère personnel peut être actualisée, à
-        tout moment, en fonction des évolutions du traitement ou si la Loi
-        l’exige.
+        Pour plus d’information, nous vous invitons à consulter la politique de
+        gestion des données mise en place par chaque éditeur d’outils de traçage
+        (cookies).</p>
+        <p> Gérer les cookies Vous pouvez accepter, refuser ou exprimer
+        vos préférences en matière de cookies directement via le bandeau
+        d’information et de recueil du consentement au dépôt des cookies qui
+        s’affiche lors de votre première visite sur le site. Ce dernier est
+        également accessible depuis une rubrique spécifique « Gestion des
+        cookies » disponible au bas de chaque page du présent site. Vous pourrez
+        ainsi revenir, à tout moment, sur les choix effectués antérieurement. Le
+        refus du dépôt de cookies sociaux empêchera toute interaction avec les
+        réseaux sociaux. De même, le refus du dépôt de cookies de ciblage
+        (publicitaire) ne permettra pas la visualisation de certains contenus
+        multimédia. Vous pouvez également gérer les cookies (désactivation,
+        blocage, suppression) depuis votre navigateur ou votre terminal dans le
+        menu « Options » / « Préférences ». La procédure à suivre est
+        généralement décrite dans la rubrique « Aide » de votre navigateur.</p><h4> La
+        mise à jour de la politique</h4><p>La présente Politique de protection des
+        données à caractère personnel peut être actualisée, à tout moment, en
+        fonction des évolutions du traitement ou si la Loi l’exige.
       </p>
     </main>
   );
