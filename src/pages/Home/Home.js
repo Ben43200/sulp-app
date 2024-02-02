@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="home-container">
       <div className="home-font">
-  <img src={Google} />
+  <img className="carte" src={Google} alt="carte"/>
   </div>
       <div className="carousel-container">
         <Carousel images={stockData} />

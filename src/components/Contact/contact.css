@@ -13,6 +13,7 @@
   .contact-container {
     padding: 7.4rem;
     border-radius: 25px;
+    grid-area: contact;
   }
 }
 
