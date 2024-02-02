@@ -261,7 +261,6 @@ h2 {
 
 #main > p {
   color: black;
-  margin: 0;
 }
 
 @media screen and (min-width: 1025px) {

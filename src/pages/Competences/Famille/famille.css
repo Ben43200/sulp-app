@@ -1,10 +1,12 @@
 .img-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
 .img-comp {
   grid-column: 1/3;
   place-self: center;
   border-radius: 25px;
+  width: 100%;
 }/*# sourceMappingURL=famille.css.map */
