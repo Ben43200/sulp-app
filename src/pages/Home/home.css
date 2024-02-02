@@ -259,4 +259,8 @@ h2 {
 
 #main > p {
   color: black;
+}
+
+.home-font {
+  grid-column: 1/3;
 }/*# sourceMappingURL=home.css.map */
