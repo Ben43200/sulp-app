@@ -15,7 +15,7 @@ export default function Home() {
   <img className="carte" src={Google} alt="carte"/>
   </div>
       <div className="carousel-container">
-        <Carousel images={stockData} />
+        <Carousel fetchpriority="high" images={stockData} />
       </div>
       {/* <div className="home-font">
   <img src={font} />
