@@ -15,7 +15,7 @@ Votre notaire saura vous guider pour réussir au mieux la transmission de votre 
 les conflits familiaux.
 Quel que soit votre objectif, votre notaire saura donner vie à vos projets.</p>
 <div className="img-container">
-<img className="carte" src={Money} alt="cute-familly"/>
+<img className="img-comp" src={Money} alt="Patrimoine"/>
 </div>
         </main>
         )

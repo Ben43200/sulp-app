@@ -19,7 +19,7 @@ Votre notaire apporte un cadre sécurisant aux expertises immobilières que vous
 conduits à présenter au tribunal, dans le cadre de la vente d’un bien d’une personne sous tutelle, par
 exemple.</p>
 <div className="img-container">
-<img className="carte" src={Expert} alt="cute-familly"/>
+<img className="img-comp" src={Expert} alt="Expertise"/>
 </div>
         </main>
     )

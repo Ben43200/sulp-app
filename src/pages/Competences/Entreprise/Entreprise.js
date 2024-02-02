@@ -13,7 +13,7 @@ Ils abordent le droit de l'entreprise dans tous ses aspects : choix de la forme 
 projet, rédaction des statuts, mais aussi rédaction des baux commerciaux, mise en place de location-
 gérance ou encore vente de fonds de commerce.</p>
 <div className="img-container">
-<img className="carte" src={Business} alt="cute-familly"/>
+<img className="img-comp" src={Business} alt="cute-familly"/>
 </div>
         </main>
     )

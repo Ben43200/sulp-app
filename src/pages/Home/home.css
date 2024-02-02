@@ -255,10 +255,13 @@ h2 {
 
 #root > main {
   padding: 20px 15px;
+  display: grid;
+  row-gap: 20px;
 }
 
 #main > p {
   color: black;
+  margin: 0;
 }
 
 @media screen and (min-width: 1025px) {

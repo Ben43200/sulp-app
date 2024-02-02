@@ -287,6 +287,8 @@ padding: 10px 0px;
 
 #root >main{
   padding: 20px  15px;
+  display: grid;
+  row-gap:20px;
   // color: yellow;
   // color: black;
 }
@@ -294,6 +296,7 @@ padding: 10px 0px;
 
 #main >p{
   color:black;
+  margin:0;
 }
 
 // .home-font >img{

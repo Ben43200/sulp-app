@@ -21,7 +21,7 @@ partenaire serait écarté de votre succession.</p>
 d’acquisition le mieux adapté à votre situation : indivision, SCI, démembrement croisé ou tontine.
 </p>
 <div className="img-container">
-<img className="carte" src={Familly} alt="cute-familly"/>
+<img className="img-comp" src={Familly} alt="cute-familly"/>
 </div>
 {/* 
 <ul>

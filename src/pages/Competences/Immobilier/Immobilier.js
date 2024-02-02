@@ -11,7 +11,7 @@ Votre notaire est la personne appropriée pour vous aider à réussir votre proj
 location, d’investissement ou encore de gestion locative, que vous soyez un particulier ou un
 professionnel, public ou privé.</p>
 <div className="img-container">
-<img className="carte" src={House} alt="cute-familly"/>
+<img className="img-comp" src={House} alt="House"/>
 </div>
 
         </main>
