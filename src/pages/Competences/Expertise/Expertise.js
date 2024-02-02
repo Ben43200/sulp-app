@@ -1,6 +1,6 @@
 import React from "react";
 import MenuCompetences from "../../../components/MenuCompetences/MenuCompetences";
-
+import Expert from "../../../Utils/business-people-signing-contract.jpg"
 
 
 export default function Expertise(){
@@ -18,7 +18,9 @@ de donation ou de succession.
 Votre notaire apporte un cadre sécurisant aux expertises immobilières que vous pouvez être
 conduits à présenter au tribunal, dans le cadre de la vente d’un bien d’une personne sous tutelle, par
 exemple.</p>
-
+<div className="img-container">
+<img className="carte" src={Expert} alt="cute-familly"/>
+</div>
         </main>
     )
 }

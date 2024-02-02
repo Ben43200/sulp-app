@@ -1,6 +1,7 @@
 import React from "react";
 import MenuCompetences from "../../../components/MenuCompetences/MenuCompetences";
 import "./famille.scss"
+import Familly from "../../../Utils/cute-family-playing-summer-field.jpg"
 
 
 export default function Famille(){
@@ -19,6 +20,9 @@ partenaire serait écarté de votre succession.</p>
 <p>Vous vivez en union libre ? Lors de l’achat de votre résidence principale, optez pour le mode
 d’acquisition le mieux adapté à votre situation : indivision, SCI, démembrement croisé ou tontine.
 </p>
+<div className="img-container">
+<img className="carte" src={Familly} alt="cute-familly"/>
+</div>
 {/* 
 <ul>
     <li> L'union libre</li>
