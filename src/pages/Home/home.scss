@@ -313,8 +313,13 @@ padding: 10px 0px;
 }
 
 
-#main >h1{
-  font-size:20px;
+#root >main >h1{
+  font-size:30px;
+  padding-bottom:40px;
+  text-align: center;
+}
+#root > main >p{
+  font-weight: bold;
 }
 
 
