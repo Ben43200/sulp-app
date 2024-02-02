@@ -118,6 +118,7 @@ export default function MentionsLegales() {
       <ul className="copyright">
         <li>©Jean-François Sulpice</li>
         <li>©Benjamin Dollfus</li>
+        <li>©Freepik</li>
       </ul>
       <h2 className="mentions-title">Données personnelles</h2>
       <h3 className="mentions-subtitle">
