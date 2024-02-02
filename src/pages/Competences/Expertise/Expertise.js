@@ -8,10 +8,16 @@ export default function Expertise(){
         <main>
             <MenuCompetences />
             <h1>L'expertise</h1>
-            <p>L'expertise immobilière réalisée par votre notaire permet de connaître la vraie valeur d'un bien
-immobilier à l'instant T. Cela sera d'une grande utilité bien sûr lors de sa vente mais aussi pour le
-règlement d'une succession, un investissement ou même vos déclarations d'impôts notamment si
-vous êtes assujetti à l'ISF.</p>
+            <p>L'expertise immobilière réalisée par votre notaire permet de connaître la valeur vénale d'un bien
+immobilier grâce notamment à l’accès à la Base d’informations économiques notariales. Cette base
+recense l’ensemble des transactions, ce qui permet de mettre à votre portée une connaissance fine
+de l’état du marché à l’instant T.
+Cela sera d'une grande utilité bien entendu lors d’un investissement ou pour vous prémunir
+contre une contestation des services fiscaux, pour votre déclaration d’IFI ou le calcul de droits
+de donation ou de succession.
+Votre notaire apporte un cadre sécurisant aux expertises immobilières que vous pouvez être
+conduits à présenter au tribunal, dans le cadre de la vente d’un bien d’une personne sous tutelle, par
+exemple.</p>
 
         </main>
     )
