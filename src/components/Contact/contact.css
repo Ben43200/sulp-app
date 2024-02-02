@@ -3,7 +3,7 @@
   padding: 4rem;
   background-color: #164F9D;
   color: white;
-  border-radius: 25px;
+  border-radius: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
 @media screen and (min-width: 1025px) {
   .contact-container {
     padding: 7.4rem;
+    border-radius: 25px;
   }
 }
 
