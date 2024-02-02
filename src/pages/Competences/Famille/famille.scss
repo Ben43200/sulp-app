@@ -1,5 +1,5 @@
 // .droit-famille-title  {
-//     // padding:4000px 0px;
+ @import "../../../css/mixinsandfunctions.scss";   
 .img-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,6 +10,10 @@
 .img-comp{
 grid-column: 1/3;
 place-self:center;
-border-radius: 25px;
+border-radius: 10px;
 width:100%;
+@include media(tablet) {
+border-radius: 25px;
+
+}
 }

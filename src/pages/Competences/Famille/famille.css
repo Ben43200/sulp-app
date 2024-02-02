@@ -7,6 +7,11 @@
 .img-comp {
   grid-column: 1/3;
   place-self: center;
-  border-radius: 25px;
+  border-radius: 10px;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .img-comp {
+    border-radius: 25px;
+  }
 }/*# sourceMappingURL=famille.css.map */
