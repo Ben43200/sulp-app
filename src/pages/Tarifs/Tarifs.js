@@ -1,5 +1,5 @@
 // import React from "react";
-// import "./tarifs.scss";
+import "./tarifs.scss";
 
 // export default function Tarifs() {
 //   return (
@@ -61,18 +61,22 @@
 import React, { Component } from 'react';
 import Pdf1 from '../../Utils/Tarifs.pdf';
 import Pdf2 from "../../Utils/Tableau.pdf"
+import "./tarifs.scss";
+
 export  class Tarif extends Component {
 
   render() {
 
     return (
       <main>
-        <div className = "Tableau">
-          <a href = {Pdf1} target = "_blank">Download Pdf</a>
-        </div>
-          <div className = "Tarif">
-          <a href = {Pdf2} target = "_blank">Download Pdf</a>
-        </div>
+        <ul>
+        <li className = "tarifs">
+          <a href = {Pdf1} target = "_blank"><p>Téléchargez les tarifs affichés en salle d'attente</p></a>
+        </li>
+          <li className = "tarifs">
+          <a href = {Pdf2} target = "_blank"><p>Téléchargez le Tableau des honoraires</p></a>
+        </li>
+        </ul>
         </main>
     );
 
