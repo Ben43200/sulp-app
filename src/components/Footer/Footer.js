@@ -6,7 +6,7 @@ export default function Footer(){
 
     return (
         <footer>
-            
+            <p>©Meteoben</p>
             <NavLink to ="/MentionsLegales">Mentions légales</NavLink>
         </footer>
     )

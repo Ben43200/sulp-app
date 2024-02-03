@@ -135,15 +135,19 @@ export default function MentionsLegales() {
       L’Editeur peut à tout moment modifier les présentes en actualisant ce
       site. Ces modifications vous engagent et nous vous recommandons de
       consulter régulièrement ce site pour prendre connaissance des termes et
-      conditions en vigueur. 
-      
-      <h4 className="mentions-subtitle">10. Médiation de la consommation - Art L 616-1 et R
-      616-1 du code de la consommation</h4>
-      <p> En cas de litige non résolu avec un
-      notaire, vous avez la possibilité de saisir le Médiateur du notariat
-      Médiateur-notariat.notaires.fr : E-mail : mediateurdunotariat@notaires.fr
-      Adresse postale : 60 boulevard de la Tour-Maubourg, 75007 Paris, afin de
-      tenter, avec son aide, de trouver une résolution amiable au conflit.</p>
+      conditions en vigueur.
+      <h4 className="mentions-subtitle">
+        10. Médiation de la consommation - Art L 616-1 et R 616-1 du code de la
+        consommation
+      </h4>
+      <p>
+        {" "}
+        En cas de litige non résolu avec un notaire, vous avez la possibilité de
+        saisir le Médiateur du notariat Médiateur-notariat.notaires.fr : E-mail
+        : mediateurdunotariat@notaires.fr Adresse postale : 60 boulevard de la
+        Tour-Maubourg, 75007 Paris, afin de tenter, avec son aide, de trouver
+        une résolution amiable au conflit.
+      </p>
       <h2 className="mentions-title">Données personnelles</h2>
       <h3 className="mentions-subtitle">
         Politique de protection des données personelles
@@ -156,36 +160,38 @@ export default function MentionsLegales() {
         effectués pour la mise en œuvre du site internet.
       </p>
       <h4>Définitions</h4>
-      
-        <p>Données personnelles : toute information relative à une personne
+      <p>
+        Données personnelles : toute information relative à une personne
         identifiée ou identifiable directement ou indirectement (ci-après, «
-        données » ou « données personnelles »).</p>
-        
-        
-        <p>Traitement de données
-        personnelles : toute opération portant sur des données personnelles
-        telles que la collecte, l’enregistrement, l’extraction, la modification,
-        etc. (ci-après, « traitement » ou « traitement de données personnelles »</p>
-
-
-
-        <p>
+        données » ou « données personnelles »).
+      </p>
+      <p>
+        Traitement de données personnelles : toute opération portant sur des
+        données personnelles telles que la collecte, l’enregistrement,
+        l’extraction, la modification, etc. (ci-après, « traitement » ou «
+        traitement de données personnelles »
+      </p>
+      <p>
         Personnes concernées : toute personne physique dont les données
         personnelles font l’objet d’un traitement (ci-après, « vous », « vos »
-        ou « personnes concernées »).</p>
-        <p>Responsable de traitement : personne
-        physique ou morale qui détermine la finalité et les moyens du
-        traitement.</p>
-        <p>Délégué à la protection des Données : personne désignée par
-        le responsable de traitement pour notamment contrôler le respect de la
+        ou « personnes concernées »).
+      </p>
+      <p>
+        Responsable de traitement : personne physique ou morale qui détermine la
+        finalité et les moyens du traitement.
+      </p>
+      <p>
+        Délégué à la protection des Données : personne désignée par le
+        responsable de traitement pour notamment contrôler le respect de la
         réglementation, être le point de contact pour les questions relatives
         aux droits des personnes concernées et coopérer avec la Commission
-        nationale de l'informatique et des libertés (CNIL).</p>
-        <p>Cookies :
-        fichierinformatique (traceur) déposé et lu notamment suite à la
-        consultation d’un site internet, la lecture d’un courrier électronique,
-        l’utilisation d’une application ou d’un logiciel, quel que soit le
-        terminal utilisé.
+        nationale de l'informatique et des libertés (CNIL).
+      </p>
+      <p>
+        Cookies : fichierinformatique (traceur) déposé et lu notamment suite à
+        la consultation d’un site internet, la lecture d’un courrier
+        électronique, l’utilisation d’une application ou d’un logiciel, quel que
+        soit le terminal utilisé.
       </p>
       <h4>Responsable de traitement</h4>
       <p>
@@ -342,9 +348,12 @@ export default function MentionsLegales() {
         Gestion des cookies » disponible au bas de chaque page du présent site.
         Pour plus d’information, nous vous invitons à consulter la politique de
         gestion des données mise en place par chaque éditeur d’outils de traçage
-        (cookies).</p>
-        <p> Gérer les cookies Vous pouvez accepter, refuser ou exprimer
-        vos préférences en matière de cookies directement via le bandeau
+        (cookies).
+      </p>
+      <p>
+        {" "}
+        Gérer les cookies Vous pouvez accepter, refuser ou exprimer vos
+        préférences en matière de cookies directement via le bandeau
         d’information et de recueil du consentement au dépôt des cookies qui
         s’affiche lors de votre première visite sur le site. Ce dernier est
         également accessible depuis une rubrique spécifique « Gestion des
@@ -356,10 +365,13 @@ export default function MentionsLegales() {
         multimédia. Vous pouvez également gérer les cookies (désactivation,
         blocage, suppression) depuis votre navigateur ou votre terminal dans le
         menu « Options » / « Préférences ». La procédure à suivre est
-        généralement décrite dans la rubrique « Aide » de votre navigateur.</p><h4> La
-        mise à jour de la politique</h4><p>La présente Politique de protection des
-        données à caractère personnel peut être actualisée, à tout moment, en
-        fonction des évolutions du traitement ou si la Loi l’exige.
+        généralement décrite dans la rubrique « Aide » de votre navigateur.
+      </p>
+      <h4> La mise à jour de la politique</h4>
+      <p>
+        La présente Politique de protection des données à caractère personnel
+        peut être actualisée, à tout moment, en fonction des évolutions du
+        traitement ou si la Loi l’exige.
       </p>
     </main>
   );
