@@ -6,4 +6,12 @@
   .contact-page-container {
     grid-template-columns: 1fr;
   }
+}
+
+.contact-container > p {
+  padding: 2px;
+}
+
+.contact-container > h3 {
+  padding-bottom: 8px;
 }/*# sourceMappingURL=contactpage.css.map */
