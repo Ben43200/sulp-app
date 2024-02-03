@@ -1,9 +1,6 @@
-.contact-page-container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 @media screen and (min-width: 768px) {
   .contact-page-container {
+    display: grid;
     grid-template-columns: 1fr;
   }
 }

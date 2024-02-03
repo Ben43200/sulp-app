@@ -2,10 +2,9 @@
 @import "../../css/mixinsandfunctions.scss";   
 
 .contact-page-container{
-    display:grid;
-    grid-template-columns: 1fr;
     @include media(tablet) {
         // border-radius: 25px;
+    display:grid;
         
         
     grid-template-columns: 1fr ;
@@ -20,3 +19,6 @@
 .contact-container >h3{
     padding-bottom: 8px;;
 }
+// .home-font{
+//     width:100%;
+// }
