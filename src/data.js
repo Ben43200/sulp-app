@@ -7,7 +7,7 @@ export const stockData = [
     // "https://meteoben.eu/Utils_Jeff/Eglise-de-profil.jpg",
     "https://meteoben.eu/Utils_Jeff/Bureau_1.webp",
     "https://meteoben.eu/Utils_Jeff/Salle_d_attente_2.webp",
-    "/logo.192.png",
+    "../public/logo192.png",
 
 
     // "https://meteoben.eu/Utils_Jeff/raison-notariat.jpg"
