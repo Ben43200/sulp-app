@@ -1,0 +1,14 @@
+
+@import "../../css/mixinsandfunctions.scss";   
+
+.contact-page-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    @include media(tablet) {
+        // border-radius: 25px;
+        
+        
+    grid-template-columns: 1fr ;
+    // grid-template-rows: 1fr;
+}
+}

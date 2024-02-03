@@ -85,7 +85,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/contact" onClick={closeAndTop}>
+                <NavLink to="/contactpage" onClick={closeAndTop}>
                   Contact
                 </NavLink>
               </li>

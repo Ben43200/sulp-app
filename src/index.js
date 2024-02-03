@@ -25,7 +25,7 @@ import Immobilier from "./pages/Competences/Immobilier/Immobilier";
 import Entreprise from "./pages/Competences/Entreprise/Entreprise";
 import Expertise from "./pages/Competences/Expertise/Expertise";
 import MentionsLegales from "./pages/MentionsLegales/MentionsLegales"
-
+import ContactPage from "./pages/Contact/ContactPage";
 
 // import "./css/common.scss";
 
@@ -64,7 +64,7 @@ root.render(
       <Route path="/entreprise" element={<Entreprise />} />
       <Route path="/expertise" element={<Expertise />} />
       <Route path="/mentionslegales" element={<MentionsLegales />} />
-
+      <Route path="/contactpage" element={<ContactPage />} />
 
 
 
