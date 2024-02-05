@@ -62,3 +62,46 @@
     // justify-content: space-around;
     // grid-area: right-column;
 }
+
+.right-column{
+    display: flex;
+    flex-direction: column;  
+     @include media(tablet) {
+    justify-content: space-evenly;
+
+
+
+
+@include media(desktop) {
+    justify-content: space-between;
+}
+
+}
+}
+    
+
+.horaires-container{
+    background-color:#131f53;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    border-radius:25px; 
+    padding: 4rem 0rem;
+    @include media(desktop) {
+    
+        padding: 8rem;
+    
+}
+}
+
+
+.contact-title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:2rem
+}

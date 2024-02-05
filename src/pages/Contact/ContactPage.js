@@ -23,6 +23,15 @@ export default function ContactPage(){
     <div className="contact-title">
   <h1>Contactez votre notaire</h1>
   </div>
+  <div className="horaires-container">
+    <h3>Horaires</h3>
+    <p>Lundi 14h-18h</p>
+    <p>Mardi 9h-12h / 14h-18h</p>
+    <p>Mercredi 9h-12h / 14h-18h</p>
+    <p>Jeudi 9h-12h / 14h-18h</p>
+    <p>Vendredi 9h-12h / 14h-18h</p>
+    <p>Samedi 10h-12h</p>
+  </div>
   </aside>
         </main>
         )
