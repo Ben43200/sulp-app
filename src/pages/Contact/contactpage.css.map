@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../css/mixinsandfunctions.scss","contactpage.scss","contactpage.css"],"names":[],"mappings":"AA0BM;ECvBN;IAGI,aAAA;IAGA,0BAAA;ECLF;AACF;;ADSA;EACI,YAAA;ACNJ;;ADSA;EACI,mBAAA;ACNJ","file":"contactpage.css"}
+{"version":3,"sources":["../../css/mixinsandfunctions.scss","contactpage.scss","contactpage.css"],"names":[],"mappings":"AA0BM;ECvBN;IAGI,aAAA;IAGA,0BAAA;IACA,SAAA;ECLF;AACF;;ADSA;EACI,YAAA;ACNJ;;ADSA;EACI,mBAAA;ACNJ","file":"contactpage.css"}
