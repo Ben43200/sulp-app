@@ -2,6 +2,7 @@
 @import "../../css/mixinsandfunctions.scss";   
 
 .contact-page-container{
+    row-gap:20px;
     @include media(tablet) {
         // border-radius: 25px;
     display:grid;
@@ -16,10 +17,10 @@
 
     
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        // grid-template-columns: 1fr 1fr;
         gap: 20px;
-        grid-template-areas: "title title"
-          "carte contact";
+        // grid-template-areas: "title title"
+        //   "carte contact";
     
 
 
@@ -44,7 +45,7 @@
 // }
 
 
-.contact-title{
-    font-size:50px;
-    grid-area: title;
-}
+// .contact-title{
+//     font-size:50px;
+//     grid-area: title;
+// }
