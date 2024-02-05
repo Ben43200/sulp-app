@@ -37,12 +37,15 @@
 }
 
 .contact-container >p{
-    padding:2px;
+    padding:4px 2px;
 }
 
-.contact-container >h3{
-    padding-bottom: 8px;;
-}
+
+
+
+// .contact-container >h3{
+//     padding-bottom: 8px;;
+// }
 // .home-font{
 //     width:100%;
 // }
@@ -96,7 +99,7 @@
     padding: 4rem 0rem;
     @include media(desktop) {
     
-        padding: 8rem;
+        padding: 5.9rem;
     
 }
 }
@@ -111,4 +114,14 @@
     @include media(desktop) {
 padding-top:9rem;
     }
+}
+
+
+
+.horaires-container >h3{
+    padding-bottom:1rem;
+}
+
+.horaires-container  >p{
+    padding: 4px;
 }
