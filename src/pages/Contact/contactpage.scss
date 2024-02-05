@@ -9,7 +9,7 @@
     display:grid;
         
         
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap:20px;
     // grid-template-rows: 1fr;
 
@@ -20,9 +20,11 @@
         display: grid;
         // grid-template-columns: 1fr 1fr;
         gap: 20px;
-        grid-template-areas: "left-column right-column"
+        // grid-template-areas: "left-column right-column";
          
-    
+        @include media(desktop) {
+            grid-template-columns: 1fr 1fr;
+        }
 
 
 
@@ -65,9 +67,11 @@
 
 .right-column{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    row-gap:20px; 
      @include media(tablet) {
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
+    justify-content: space-around;
 
 
 
@@ -103,5 +107,8 @@
     justify-content: center;
     align-items: center;
     color:white;
-    font-size:2rem
+    font-size:2rem;
+    @include media(desktop) {
+padding-top:9rem;
+    }
 }

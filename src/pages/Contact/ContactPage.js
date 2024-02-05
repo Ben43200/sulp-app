@@ -21,7 +21,7 @@ export default function ContactPage(){
     </aside>
     <aside className="right-column">
     <div className="contact-title">
-  <h1>Contactez votre notaire</h1>
+  <h1>N'hésitez pas à contacter votre notaire</h1>
   </div>
   <div className="horaires-container">
     <h3>Horaires</h3>
