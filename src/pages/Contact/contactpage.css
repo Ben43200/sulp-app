@@ -1,4 +1,5 @@
 .contact-page-container {
+  display: grid;
   row-gap: 20px;
 }
 @media screen and (min-width: 768px) {

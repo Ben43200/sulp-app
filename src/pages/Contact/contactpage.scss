@@ -2,6 +2,7 @@
 @import "../../css/mixinsandfunctions.scss";   
 
 .contact-page-container{
+    display: grid;
     row-gap:20px;
     @include media(tablet) {
         // border-radius: 25px;
