@@ -109,10 +109,14 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    color:white;
-    font-size:2rem;
+    // color:white;
+    color:black;
+    font-size:1.2rem;
+    // text-align: justify;
     @include media(desktop) {
 padding-top:9rem;
+font-size:2rem;
+
     }
 }
 
