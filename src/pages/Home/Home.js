@@ -15,7 +15,7 @@ export default function Home() {
        
       <div className="home-font">
       <Link to="https://maps.app.goo.gl/UBfWP5JLSstGKZf29" target="_blank" rel="noopener noreferrer">
-        <img className="carte" src={Google} alt="carte" />
+        <img className="carte" src={Google} alt="carte"  fetchpriority="high" />
         </Link>
       </div>
       
