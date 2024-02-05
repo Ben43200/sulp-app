@@ -3,6 +3,10 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: "title title" "carte contact";
   }
 }
 
@@ -12,4 +16,9 @@
 
 .contact-container > h3 {
   padding-bottom: 8px;
+}
+
+.contact-title {
+  font-size: 50px;
+  grid-area: title;
 }/*# sourceMappingURL=contactpage.css.map */
