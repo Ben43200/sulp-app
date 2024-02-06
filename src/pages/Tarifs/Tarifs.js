@@ -77,7 +77,7 @@ export class Tarif extends Component {
         <h4>Généralités sur le tarif des notaires</h4>
 
         <a href={Pdf1} target="_blank" rel="noopener noreferrer">
-          <p>Téléchargez les Généralités sur le tarif des notaires</p>
+          <p>Téléchargez ici les Généralités sur le tarif des notaires</p>
         </a>
 
         <h4>Le tarif affiché dans la salle d’attente de l’Office</h4>
