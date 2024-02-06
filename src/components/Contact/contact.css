@@ -11,7 +11,7 @@
 }
 @media screen and (min-width: 1025px) {
   .contact-container {
-    padding: 8rem;
+    padding: 7.3rem;
     border-radius: 25px;
     grid-area: contact;
   }
@@ -19,7 +19,7 @@
 
 .contact-container > h3 {
   font-size: 1rem;
-  padding-bottom: 8px;
+  padding-bottom: 14px;
 }
 @media screen and (min-width: 1025px) {
   .contact-container > h3 {

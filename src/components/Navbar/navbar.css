@@ -32,10 +32,10 @@ header {
   box-shadow: 4px 3px 5px black;
   position: fixed;
   width: 100%;
-  border-top-right-radius: 10px;
 }
 @media screen and (min-width: 1025px) {
   .navbar {
+    border-top-right-radius: 10px;
     width: 1240px;
   }
 }

@@ -44,9 +44,10 @@ border-top-right-radius: 10px;
   // width: 100vw;
   position: fixed;
   width: 100%;
-border-top-right-radius: 10px;
 
   @include media(desktop) {
+border-top-right-radius: 10px;
+
     width: 1240px;
   }
 }
