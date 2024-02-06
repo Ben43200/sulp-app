@@ -270,6 +270,7 @@ h2 {
 
 #root > main > h1 {
   font-size: 30px;
+  font-weight: bold;
   text-align: center;
 }
 
