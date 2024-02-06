@@ -21,7 +21,10 @@ footer{
 footer >a{
     color:white;
     text-decoration: underline;
+    padding: 6px 0px;
+    @include media(desktop) {
     padding:3px;
+}
 }
 
 // }
