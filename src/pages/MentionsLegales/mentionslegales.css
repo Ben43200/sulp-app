@@ -25,4 +25,8 @@
 
 h4 {
   font-weight: bold;
+}
+
+ul > li {
+  margin-left: 20px;
 }/*# sourceMappingURL=mentionslegales.css.map */
