@@ -11,12 +11,12 @@ footer {
 @media screen and (min-width: 1025px) {
   footer {
     flex-direction: row;
+    align-items: normal;
   }
 }
 
 footer > a {
   color: white;
-  text-decoration: underline;
   padding: 6px 0px;
 }
 @media screen and (min-width: 1025px) {
@@ -34,23 +34,20 @@ footer > a {
   padding-right: 4px;
 }
 
-.link-list {
-  display: flex;
-  color: white;
-  text-decoration: underline;
-  padding: 3px;
-}
-
 .link > a {
-  text-decoration: none;
   color: white;
 }
 
 .link {
   display: flex;
   align-items: center;
-  padding: 4px;
+  padding: 6px 4px;
   font-size: 0.8rem;
+}
+@media screen and (min-width: 1025px) {
+  .link {
+    padding: 4px;
+  }
 }
 
 .notaires-link-title {
