@@ -77,21 +77,27 @@ h2{
 }
 
 .logo-1{
-  height: 123px;
+  // height: 123px;
   // essai
-  width: 90px;
-  padding:2px;
+  // width: 90px;
+  // padding: 2px;
+margin-bottom: 6px;
+height: 100%;
   // fin essai
-  margin-top:7px;
+  // margin-top:7px;
   // border-right:2px solid black;
 }
 .logo-not{
-  height:80px;
+  // height:80px;
   // essai 
   // width:80px;
-  width: 90px;
-  padding:2px;
-  // fin essai
+  // width: 90px;
+  // padding:2px;
+  padding:9px;
+  // padding-right:10p
+  // // fin essai
+  // // height:100%;
+  // padding-top:10px;
 }
 .logo-container{
   display: flex;
