@@ -26,7 +26,7 @@ export default function Footer() {
           <li className="link">
             <span className="arrow-right-link"></span>
             <Link
-              to="https://www.paris.notaires.fr/outil/immobilier/prix-et-nombre-de-ventes-paris-idf"
+              to="https://paris.notaires.fr/fr/carte-des-prix"
               target="_blank"
               rel="noopener noreferrer"
             >Les prix de l'immobilier à Paris et Île de France
