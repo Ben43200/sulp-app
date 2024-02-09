@@ -148,10 +148,11 @@ h2{
   align-self: center;
   width:100%;
   height: 100%;
-  border-radius: 10px;
+  // border-radius: 10px;
   // width: fit-content;
+  box-shadow: 4px 3px 5px black;
   @include media(desktop) {
-  border-radius:25px;
+  // border-radius:25px;
 }
 }
 
