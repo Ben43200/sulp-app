@@ -168,9 +168,13 @@ h2{
 
 box-shadow: 4px 3px 5px black;
 
-border-top-right-radius: 10px;
 background-size: cover;
 background-position: center;
+@include media(desktop) {
+  // border-radius:25px;
+border-top-right-radius: 10px;
+
+}
 }
 .home-container >img{
   height: 100%;
