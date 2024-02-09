@@ -13,36 +13,35 @@ export default function Footer() {
           LES NOTAIRES DE FRANCE SUR LE WEB
         </h4>
         <ul>
-          <div className="link">
+          <li className="link">
             <span className="arrow-right-link"></span>
             <Link
               to="https://www.notaires.fr/fr"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <li className="link-list">En savoir plus sur les notaires</li>
+              En savoir plus sur les notaires
             </Link>
-          </div>
-          <div className="link">
+          </li>
+          <li className="link">
             <span className="arrow-right-link"></span>
             <Link
               to="https://www.paris.notaires.fr/outil/immobilier/prix-et-nombre-de-ventes-paris-idf"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <li className="link-list">Les prix de l'immobilier à Paris et Île de France</li>
+            >Les prix de l'immobilier à Paris et Île de France
             </Link>
-          </div>
-          <div className="link">
+          </li>
+          <li className="link">
             <span className="arrow-right-link"></span>
             <Link
               to="https://immobilier.statistiques.notaires.fr/prix-immobilier"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <li className="link-list">Les prix de l'immobilier en régions</li>
+              Les prix de l'immobilier en régions
             </Link>
-          </div>
+          </li>
         </ul>
       </div>
     </footer>

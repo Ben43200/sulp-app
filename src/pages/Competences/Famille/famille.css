@@ -6,11 +6,6 @@
 }
 
 .img-comp {
-  border-radius: 10px;
   width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .img-comp {
-    border-radius: 25px;
-  }
+  box-shadow: 4px 3px 5px black;
 }/*# sourceMappingURL=famille.css.map */

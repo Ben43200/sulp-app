@@ -76,12 +76,12 @@ export class Tarif extends Component {
         </p>
         <h4>Généralités sur le tarif des notaires</h4>
 
-        <a href={Pdf1} target="_blank" rel="noopener noreferrer">
+        <a className="pdf" href={Pdf1} target="_blank" rel="noopener noreferrer">
           <p>Téléchargez ici les Généralités sur le tarif des notaires</p>
         </a>
 
         <h4>Le tarif affiché dans la salle d’attente de l’Office</h4>
-        <a href={Pdf2} target="_blank" rel="noopener noreferrer" >
+        <a className="pdf"  href={Pdf2} target="_blank" rel="noopener noreferrer" >
           <p>Téléchargez ici les tarifs affichés en salle d'attente</p>
         </a>
 
@@ -108,7 +108,7 @@ export class Tarif extends Component {
           </li>
           <li>Tarifs d’expertise sur devis seulement.</li>
         </ul>
-        <a href={Pdf3} target="_blank" rel="noopener noreferrer">
+        <a className="pdf"  href={Pdf3} target="_blank" rel="noopener noreferrer">
           <p>Téléchargez ici le tableau des honoraires</p>
         </a>
       </main>
