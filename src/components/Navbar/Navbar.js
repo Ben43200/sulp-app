@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "./navbar.scss";
+import { useEffect,useRef } from "react";
 // import logo from "../../logo.png"
 // import logonotaire from "../../Utils/logo-notaire2.png"
 import logonotaire from "../../Utils/logonotaire2.png"
@@ -10,6 +11,7 @@ import logo from "../../Utils/logo-jeff.png"
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  let menuRef = useRef()
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -21,9 +23,25 @@ const Navbar = () => {
   // };
   const closeAndTop = () => {
     window.scrollTo(0, 0);
-    setShowNavbar(!showNavbar);
+    // setShowNavbar(!showNavbar);
   };
+  
 
+useEffect(()=> {
+  let handler = (e) =>{
+    if(!menuRef.current.contains(e.target)){
+    setShowNavbar(false)
+    // console.log(menuRef.current);
+      
+    
+  }
+};
+  document.addEventListener("mousedown", handler)
+
+return()=>{
+  document.removeEventListener("mousedown", handler)
+}
+});
   return (
     <header>
       <nav className="navbar">
@@ -38,13 +56,13 @@ const Navbar = () => {
           {/* </div> */}
           <div className="menu-icon" onClick={handleShowNavbar}>
             {/* <Hamburger /> */}
-            <span className="burger-icon">
+            <span className="burger-icon"  ref={menuRef}>
               <span></span>
               <span></span>
               <span></span>
             </span>
           </div>
-          <div className={`nav-elements  ${showNavbar && "active"}`}>
+          <div className={`nav-elements  ${showNavbar && "active"}`} >
             <ul>
               <li>
                 <NavLink to="/" onClick={closeAndTop}>
