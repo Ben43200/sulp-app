@@ -11,7 +11,7 @@ export default function ContactPage(){
 
 
   <aside className="left-column">
-          <div className="home-font">
+          <div className="map-container">
           <Link to="https://maps.app.goo.gl/UBfWP5JLSstGKZf29" target="_blank" rel="noopener noreferrer">
   <img className="carte" src={Google} alt="carte"/>
   </Link>
