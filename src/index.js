@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+
 
 import ReactDOM from "react-dom/client";
 import Home from "./pages/Home/Home";
@@ -34,6 +36,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
   // <React.StrictMode>
+  <HelmetProvider>
   <Router>
       {/* <ScrollToTop /> */}
 
@@ -77,7 +80,7 @@ root.render(
     <Footer />
 
   </Router>
-
+  </HelmetProvider>
   // </React.StrictMode>
 );
 
