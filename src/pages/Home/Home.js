@@ -5,7 +5,7 @@ import "./home.scss";
 import Contact from "../../components/Contact/Contact";
 import Google from "../../Utils/google-map.png";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+// import { Helmet } from "react-helmet-async";
 // import ContactForm from "../../components/Contact/ContactForm";
 
 // import font from "../../Utils/Façade_8.webp";
@@ -13,7 +13,7 @@ import { Helmet } from "react-helmet-async";
 export default function Home() {
   return (
     <main className="home-container">
-            <Helmet>
+            {/* <Helmet>
         <meta
           httpEquiv="Content-Security-Policy"
           content={`default-src 'self';
@@ -31,7 +31,7 @@ export default function Home() {
           worker-src 'none';
                 `}
         ></meta>
-      </Helmet>
+      </Helmet> */}
        
       <div className="home-font">
       <Link to="https://maps.app.goo.gl/UBfWP5JLSstGKZf29" target="_blank" rel="noopener noreferrer">

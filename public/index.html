@@ -17,9 +17,9 @@
     <!-- <link href="%PUBLIC_URL%/favicon-144x144.png" rel="apple-touch-icon" type="image/png" sizes="144x144"> -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-64x64.png"  />
 
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self';
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';
     script-src 'report-sample' 'self' https://kit.fontawesome.com/a528402c70.js 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' 'nonce-rAnd0m' https://cdn.tarteaucitron.io;
-    style-src 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.tarteaucitron.io;
+    style-src   'self' 'unsafe-inline' 'strict-dynamic' https://fonts.googleapis.com/ https://cdn.tarteaucitron.io;
     object-src 'none';
     base-uri 'self';
     connect-src 'self' https://ka-f.fontawesome.com;
@@ -29,8 +29,11 @@
     manifest-src 'self';
     media-src 'self';
     form-action 'self';
-    worker-src 'none';"> -->
+    worker-src 'none';">
     <script src="https://kit.fontawesome.com/a528402c70.js" crossorigin="anonymous" defer></script>
+    <!-- <script src="https://kit.fontawesome.com/a528402c70.js"
+    integrity="sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE= sha256-iuCZriBuybIR37PfHCwwGXnSHxztA7HX+V3wrDxSV10= sha256-Sltxz+gM4Ir/rDlcx+WW5I6b3fCnpk4KwgjoAfbRKDI="
+    nonce="rAnd0m" crossorigin="anonymous" defer></script> -->
     <!-- <link rel="preload" as="image" href="https://meteoben.eu/Utils_Jeff/Façade_1.webp" fetchpriority="high"> -->
     
     <!--
