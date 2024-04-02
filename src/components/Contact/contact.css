@@ -11,7 +11,7 @@
 }
 @media screen and (min-width: 1025px) {
   .contact-container {
-    padding: 7.3rem;
+    padding: 7.4rem;
     grid-area: contact;
   }
 }
