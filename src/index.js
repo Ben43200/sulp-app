@@ -38,29 +38,13 @@ root.render(
   // <React.StrictMode>
   <HelmetProvider>
   <Router>
-      {/* <ScrollToTop /> */}
-
-    {/* <Helmet>
-      <title>Meteoben Développeur Web</title>
-      <meta
-        name="description"
-        content="Développeur et créateur de site web en Vallée de la Drôme"
-      />
-    </Helmet> */}
     <Navbar />
-    {/* <Navbar2 /> */}
-
     <Routes>
       <Route path="/" element={<Home />} />
 
       <Route path="/tarifs" element={<Tarifs />} />
-      {/* <Route path="/mission" element={<Mission />} /> */}
-      {/* <Route path="/contact" element={<Mission />} /> */}
-
-
       <Route path="/etude" element={<Etude />} />
       <Route path="*" element={<Error />} />
-      {/* <Route path="/competences" element={<Competences />} /> */}
       <Route path="/famille" element={<Famille />} />
       <Route path="/patrimoine" element={<Patrimoine />} />
       <Route path="/immobilier" element={<Immobilier />} />
@@ -68,17 +52,8 @@ root.render(
       <Route path="/expertise" element={<Expertise />} />
       <Route path="/mentionslegales" element={<MentionsLegales />} />
       <Route path="/contactpage" element={<ContactPage />} />
-
-
-
-      
-
-
-
-
     </Routes>
     <Footer />
-
   </Router>
   </HelmetProvider>
   // </React.StrictMode>

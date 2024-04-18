@@ -5,33 +5,16 @@
     display: grid;
     row-gap:20px;
     @include media(tablet) {
-        // border-radius: 25px;
     display:grid;
         
         
     grid-template-columns: 1fr;
     gap:20px;
-    // grid-template-rows: 1fr;
-
-
-
-
-    
         display: grid;
-        // grid-template-columns: 1fr 1fr;
         gap: 20px;
-        // grid-template-areas: "left-column right-column";
-         
         @include media(desktop) {
             grid-template-columns: 1fr 1fr;
         }
-
-
-
-
-
-
-
 
 }
 }
@@ -42,30 +25,10 @@
 
 
 
-
-// .contact-container >h3{
-//     padding-bottom: 8px;;
-// }
-// .home-font{
-//     width:100%;
-// }
-
-
-// .contact-title{
-//     font-size:50px;
-//     grid-area: title;
-// }
-
 .left-column{
-    // grid-area: left-column;
-    // margin:40px;
     display: flex;
-    // display: grid;
     row-gap:20px;
     flex-direction: column;
-    // flex-direction: column;
-    // justify-content: space-around;
-    // grid-area: right-column;
 }
 
 .right-column{
@@ -73,12 +36,7 @@
     flex-direction: column; 
     row-gap:20px; 
      @include media(tablet) {
-    // justify-content: space-evenly;
     justify-content: space-around;
-
-
-
-
 @include media(desktop) {
     justify-content: space-between;
 }
@@ -95,7 +53,6 @@
     flex-direction: column;
     align-items: center;
     width:100%;
-    // border-radius:25px; 
   box-shadow: 4px 3px 5px black;
 
     padding: 4rem 0rem;
@@ -111,10 +68,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    // color:white;
     color:black;
     font-size:1.2rem;
-    // text-align: justify;
     @include media(desktop) {
 padding-top:9rem;
 font-size:2rem;

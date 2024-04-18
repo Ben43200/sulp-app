@@ -2,9 +2,7 @@
 
 
 footer{
-    // background-color: black;
     background-color: #131f53;
-    // height: 8rem;
     height: auto;
     display: flex;
     justify-content: space-evenly;
@@ -21,19 +19,13 @@ footer{
 }
 footer >a{
     color:white;
-    // text-decoration: underline;
     padding: 6px 0px;
     @include media(desktop) {
     padding:3px;
 }
 }
 
-// }
 
-
-// footer >p{
-//     // text-align: center;
-// }
 
 
 
@@ -47,12 +39,7 @@ footer >a{
 
 }
 
-// .link-list{
-//     display: flex;
-//     color: white;
-//     text-decoration: underline;
-//     padding:3px;
-// }
+
 
 .link >a{
     // text-decoration: none;

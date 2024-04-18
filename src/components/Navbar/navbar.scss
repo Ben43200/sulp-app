@@ -12,7 +12,6 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  // padding: 0 15px;
   padding-right: 15px;
   display: flex;
   justify-content: space-between;
@@ -22,58 +21,30 @@ border-top-right-radius: 10px;
 
 }
 header {
-  // box-shadow: 10px 5px 5px grey;
   box-shadow: 4px 3px 5px black;
   border-radius: 10px;
-  // background: #164F9D;
   margin: 0;
   padding: 0;
 border-top-right-radius: 10px;
-
 }
 
 .navbar {
-  // height: 70px;
   height: 90px;
-  //   background-color: #fef7e5;
   background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
   background: #164F9D;
   box-shadow: 4px 3px 5px black;
-
-  // grid-area: header;
-  // width: 100vw;
   position: fixed;
   width: 100%;
 
   @include media(desktop) {
 border-top-right-radius: 10px;
-
     width: 1240px;
   }
 }
 
-// .logo-1 {
-//   width: 17%;
-//   height: 60px;
-//   @include media(tablet) {
-//     // border-radius: 25px;
-//     // height: 140px;
-//     width: 7%;
-//   }
-//   @include media(laptop-desktop) {
-//     // border-radius: 25px;
-//     // height: 140px;
-//     width: 6%;
-//   }
-//   // padding-top: 10px;
-// }
-
 .menu-icon {
   display: none;
 }
-
-// .nav-elements {
-// }
 
 .nav-elements ul {
   display: flex;
@@ -88,13 +59,11 @@ border-top-right-radius: 10px;
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  //   color: #2f234f;
   color: white;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  //   color: #574c4c;
   color: white;
   font-weight: 500;
   position: relative;
@@ -107,7 +76,6 @@ border-top-right-radius: 10px;
   left: 0;
   width: 100%;
   height: 2px;
-  //   background-color: #574c4c;
   background-color: #86b98b;
 }
 
@@ -119,13 +87,10 @@ border-top-right-radius: 10px;
 @media (max-width: 768px) {
   .nav-elements ul li {
     margin-right: 30px;
-    // padding-left: 10px;
   }
 }
 
 @media (max-width: 650px) {
-// @media (max-width: 600px) {
-
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -135,13 +100,10 @@ border-top-right-radius: 10px;
   .nav-elements {
     left: 0;
     height: 0rem;
-    // top: 84px;
     top: 0px;
     background: linear-gradient(85deg, #352361 1%, rgb(64, 84, 178) 55%);
     height: 100vh;
     width: 0;
-
-    // height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
     z-index: 100;
@@ -149,12 +111,8 @@ border-top-right-radius: 10px;
   }
 
   .nav-elements.active {
-    // width: 200px;
     opacity: 0.95;
     position: fixed;
-    // width: 173px;
-    // essai suite au modif logo
-    // width: 180px;
     width: 176px;
 
   }
@@ -163,12 +121,9 @@ border-top-right-radius: 10px;
     display: flex;
     flex-direction: column;
     padding-left: 5px;
-    // padding-top: 70px;
   }
   .nav-elements > ul:first-child {
-    // padding-top: 70px;
     padding-top: 90px;
-
   }
   .nav-elements ul li {
     margin-right: unset;
@@ -176,26 +131,13 @@ border-top-right-radius: 10px;
   }
 }
 
-// .dropdown {
-//   position: relative;
-// }
-
 .menu {
-  //   position: absolute;
-
-  //   list-style-type: none;
-  //   margin: 5px 0;
-  //   //   padding: 0;
   display: flex;
   flex-direction: column;
-  // padding-left: 5px;
   position: relative;
   position: absolute;
-  // background-color: #131f53;
 }
 @media (max-width: 600px) {
-  // @include media(tablet) {
-  //   display: block;
   .menu {
     position: relative;
     width: 150px;
@@ -203,34 +145,17 @@ border-top-right-radius: 10px;
 }
 
 .menu > li {
-  //   margin: 0;
-  //   color: red;
-  // background-color: red;
   width: 100%;
   padding-top:4px;
     @include media(tablet) {
     padding-top:7px;
-    // padding-top:10px;
-
-  //   padding: 0;
-  //   color: white;
-  //   position: absolute;
-  // background-color: #131f53;
-  // #164F9D
   width: 130px;
-  //   //   background-color: lightgray;
 
-  //   //   background-color: white;
 }
 }
 
-// .menu > li:hover {
-//   // display: flex;
-//   //   background-color: lightgray;
-// }
 .drop {
   color: white;
-  // top: 0;
 }
 
 .title{
@@ -238,8 +163,6 @@ border-top-right-radius: 10px;
   color: white;
   text-align: center;
   text-align: center;
-  // padding-top: 50px;
-  // padding-top: 90px;
   padding: 90px 10px 10px;
 
 
@@ -249,7 +172,6 @@ border-top-right-radius: 10px;
   
 }}
 .title-container {
-  // height: 13rem;
   height: 10rem;
   background-color: #131f53;
   display: flex;
@@ -257,8 +179,6 @@ border-top-right-radius: 10px;
   align-content: center;
   align-items: center;
   width: 100%;
-  // border-radius: 10px;
-  // position: fixed;
   z-index: 98;
   @include media(desktop) {
     width: 1240px;
@@ -269,7 +189,6 @@ border-top-right-radius: 10px;
   font-family: "fontawesome";
   font-weight:900;
   padding-left: 4px;
-  // position: absolute;
 }
 
 .burger-icon span {

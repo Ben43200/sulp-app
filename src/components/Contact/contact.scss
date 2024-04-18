@@ -2,13 +2,9 @@
 
 
 .contact-container{
-    // border: 2px solid black;
-// padding:6.75rem;
 padding: 4rem 0rem;
-
 background-color: #164F9D;
 color: white;
-// border-radius: 10px;
 width:100%;
 display: flex;
 flex-direction: column;
@@ -18,7 +14,6 @@ box-shadow: 4px 3px 5px black;
 
 @include media(desktop) {
 padding:7.4rem;
-// border-radius: 25px;
 grid-area: contact;
 
   }
@@ -45,10 +40,3 @@ grid-area: contact;
 }
 
 
-// .contact-container >p{
-//   padding:2px;
-// }
-
-// .contact-container >h3{
-//   padding-bottom: 8px;;
-// }

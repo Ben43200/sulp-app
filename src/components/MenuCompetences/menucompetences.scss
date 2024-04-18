@@ -3,73 +3,34 @@
 .menu-comp {
      flex-direction: column;
      align-items: center;
-    // flex-wrap: wrap;
     display: flex;
-  
-    // justify-content: space-between;
 list-style: none;
 padding: 40px 0px;
 width: 100%;
-// background-color: white;
-
     @include media(desktop) {
-        // font-size: 5rem;
-    
-    // display: flex;
     flex-direction: row;
     justify-content: space-around;
-    // list-style-type: none;
-    // background-color: black;
-    // background-color: white;
-    // background-color:  #164F9D;
-
-    // height: 2rem;
     align-items: center;
     }
     
 }
 .menu-comp >li >a{
     text-decoration: none;
-    // padding-top:700px;
     color: black
  
 }
-.menu>li{
-    // margin: 700px;
-}
+// .menu>li{
+// }
 
 .menu-comp >li >a.active {
-    // text-decoration: none;
     color: white;
     background-color: #164F9D;
     padding: 6px;
     border-radius:25px;
     @include media(desktop) {
-        // font-size: 5rem;
-//   background-color: #86b98b;
-//   //     color:red;
-//     content: "";
-//     position: absolute;
-//     bottom: -4px;
-//     left: 0;
-//     width: 100%;
-//     height: 2px;
 padding: 10px;
     }
 }
-
-// .menu-comp a.active::after {
-//     // color: #164F9D;
-//     color:red;
-//     content: "";
-//     position: absolute;
-//     bottom: -4px;
-//     left: 0;
-//     width: 100%;
-//     height: 2px;
-// }
-
-
 .menu-comp >li{
     padding: 7px 0px;
 }
