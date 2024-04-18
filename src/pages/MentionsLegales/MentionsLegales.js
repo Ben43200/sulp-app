@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./mentionslegales.scss";
 
 export default function MentionsLegales() {
@@ -10,7 +11,7 @@ export default function MentionsLegales() {
       <p className="mentions-details">
         Éditeur : le Site est conçu par Benjamin Dollfus, micro-entrepreneur,
         Immatriculé sous le n° Siret 514 925 866 000 48 - Code APE 6201Z - 8B
-        rue des Jardins 26400 Aouste-sur-sye. Tél. 06.98.55.70.26  https://meteoben.com/.
+        rue des Jardins 26400 Aouste-sur-sye. Tél. 06.98.55.70.26  <Link to="https://meteoben.com/" target="_blank"  rel="noreferrer">https://meteoben.com/</Link>
       </p>
       <h3 className="mentions-subtitle">2. Infos Hébergeur</h3>
       <p className="mentions-details">

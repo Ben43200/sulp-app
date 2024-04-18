@@ -29,4 +29,12 @@ h4 {
 
 ul > li {
   margin-left: 20px;
+}
+
+.mentions-details > a {
+  color: #164F9D;
+}
+
+.mentions-details > a:visited {
+  color: #164F9D;
 }/*# sourceMappingURL=mentionslegales.css.map */
