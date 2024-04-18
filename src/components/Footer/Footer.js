@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer>
-      <p>©Meteoben</p>
+      <Link to="https://meteoben.com/" target="_blank"  rel="noreferrer">©Meteoben</Link>
       <NavLink to="/MentionsLegales">Mentions légales</NavLink>
       <div className="notaires-link-container">
         <h4 className="notaires-link-title">
@@ -18,7 +18,7 @@ export default function Footer() {
             <Link
               to="https://www.notaires.fr/fr"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               En savoir plus sur les notaires
             </Link>
@@ -28,7 +28,7 @@ export default function Footer() {
             <Link
               to="https://paris.notaires.fr/fr/carte-des-prix"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >Les prix de l'immobilier à Paris et Île de France
             </Link>
           </li>
@@ -37,7 +37,7 @@ export default function Footer() {
             <Link
               to="https://immobilier.statistiques.notaires.fr/prix-immobilier"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               Les prix de l'immobilier en régions
             </Link>

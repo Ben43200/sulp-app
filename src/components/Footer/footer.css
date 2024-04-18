@@ -34,7 +34,11 @@ footer > a {
   padding-right: 4px;
 }
 
-.link > a {
+.p .link > a {
+  color: white;
+}
+
+.link > a:visited {
   color: white;
 }
 
