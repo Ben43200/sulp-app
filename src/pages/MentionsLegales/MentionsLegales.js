@@ -304,14 +304,15 @@ export default function MentionsLegales() {
         de contrôle compétente, la CNIL pour la France.
       </p>
       <h4>Les cookies</h4>
-      <p>
-        Les fonctionnalités des cookies utilisés sur le site internet Lors de la
+      <p>Le site n'utilise que les cookies fonctionnels, et ne dépose pas d'autres cookies</p>
+      {/* <p> */}
+        {/* Les fonctionnalités des cookies utilisés sur le site internet Lors de la
         navigation sur le site internet, des outils de traçage peuvent générer
         et déposer un ou plusieurs cookie(s) sur votre terminal. Ils peuvent
         notamment faciliter votre navigation (ex : mémorisation de votre
         identifiant), établir des statistiques et des mesures d’audience afin
         d’améliorer le site internet, permettre la publicité ciblée.
-      </p>
+      </p> */}
       <ul>
         <li>
           Les cookies fonctionnels sont strictement nécessaires à la fourniture
@@ -320,28 +321,28 @@ export default function MentionsLegales() {
           accès à un espace personnel, etc.). De fait, ils sont dispensés du
           recueil de consentement.
         </li>
-        <li>
+        {/* <li>
           {" "}
           Les cookies analytiques permettent de générer des statistiques liées
           l’utilisation, la fréquentation générale et la performance du site
           internet en vue de l’améliorer.
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           ????Les cookies « tiers » de partage de contenu sur les réseaux
           sociaux facilitent le partage du contenu du site internet sur les
           différentes plateformes sociales. Ils sont déposés via des boutons
           réseaux sociaux. Pour de plus amples informations sur l’utilisation de
           vos données, nous vous invitons à consulter les politiques de
           protection des données des réseaux sociaux concernés.???{" "}
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           Les cookies « tiers » de ciblage (publicité) permettent de proposer
           des contenus publicitaires personnalisés en fonction de vos centres
           d’intérêts.
-        </li>
+        </li> */}
       </ul>
-      <p>Liste des cookies utilisés et/ou déposés par notre site internet : </p>
-      <p>
+      {/* <p>Liste des cookies utilisés et/ou déposés par notre site internet : </p> */}
+      {/* <p>
         Dans le cadre de la mise en œuvre du traitement relatif à la
         communication externe, nous sommes amenés à utiliser différents cookies.
         La liste de ces derniers est accessible depuis une rubrique spécifique «
@@ -349,8 +350,8 @@ export default function MentionsLegales() {
         Pour plus d’information, nous vous invitons à consulter la politique de
         gestion des données mise en place par chaque éditeur d’outils de traçage
         (cookies).
-      </p>
-      <p>
+      </p> */}
+      {/* <p>
         {" "}
         Gérer les cookies Vous pouvez accepter, refuser ou exprimer vos
         préférences en matière de cookies directement via le bandeau
@@ -366,7 +367,7 @@ export default function MentionsLegales() {
         blocage, suppression) depuis votre navigateur ou votre terminal dans le
         menu « Options » / « Préférences ». La procédure à suivre est
         généralement décrite dans la rubrique « Aide » de votre navigateur.
-      </p>
+      </p> */}
       <h4> La mise à jour de la politique</h4>
       <p>
         La présente Politique de protection des données à caractère personnel
