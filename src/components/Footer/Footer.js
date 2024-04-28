@@ -16,6 +16,7 @@ export default function Footer() {
           <li className="link">
             <span className="arrow-right-link"></span>
             <Link
+            className="notaires-link-details"
               to="https://www.notaires.fr/fr"
               target="_blank"
               rel="noreferrer"
@@ -26,6 +27,7 @@ export default function Footer() {
           <li className="link">
             <span className="arrow-right-link"></span>
             <Link
+              className="notaires-link-details"
               to="https://paris.notaires.fr/fr/carte-des-prix"
               target="_blank"
               rel="noreferrer"
@@ -35,6 +37,7 @@ export default function Footer() {
           <li className="link">
             <span className="arrow-right-link"></span>
             <Link
+              className="notaires-link-details"
               to="https://immobilier.statistiques.notaires.fr/prix-immobilier"
               target="_blank"
               rel="noreferrer"
